@@ -1,0 +1,13 @@
+{
+  "defaultAssembly": "BigPicture.Core",
+  "components": [
+    {
+      "type": "BigPicture.Repository.MongoDB.RepositoryContext, BigPicture.Repository.MongoDB",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IRepositoryContext"
+        }
+      ]
+    }
+  ]
+}
