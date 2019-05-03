@@ -12,9 +12,14 @@
   <ItemGroup>
     <ProjectReference Include="..\BigPicture.Core\BigPicture.Core.csproj" />
     <ProjectReference Include="..\BigPicture.IOC\BigPicture.IOC.csproj" />
+    <ProjectReference Include="..\BigPicture.Repository.Neo4j\BigPicture.Repository.Neo4j.csproj" />
+    <ProjectReference Include="..\BigPicture.Resolver.CSharp\BigPicture.Resolver.CSharp.csproj" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="di-resolvers.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="di.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

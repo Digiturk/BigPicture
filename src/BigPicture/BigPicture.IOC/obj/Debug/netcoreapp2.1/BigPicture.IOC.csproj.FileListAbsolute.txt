@@ -6,3 +6,4 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.AssemblyInfo.cs
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.csprojAssemblyReference.cache

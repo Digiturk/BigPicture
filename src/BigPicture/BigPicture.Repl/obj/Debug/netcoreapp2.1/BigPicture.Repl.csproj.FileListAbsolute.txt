@@ -15,3 +15,8 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\di-resolvers.json
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Resolver.CSharp.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Resolver.CSharp.pdb

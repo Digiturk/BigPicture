@@ -1,0 +1,12 @@
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.deps.json
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\netcoreapp2.1\BigPicture.Core.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\netcoreapp2.1\BigPicture.Core.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.csprojAssemblyReference.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.csproj.CoreCompileInputs.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.AssemblyInfoInputs.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.AssemblyInfo.cs
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.csproj.CopyComplete
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\netcoreapp2.1\BigPicture.Repository.Neo4j.pdb

@@ -1,0 +1,9 @@
+{
+  "Resolvers": [
+    {
+      "Name": "Solution",
+      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Solution, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.SolutionResolver, BigPicture.Resolver.CSharp",
+    }
+  ]
+}

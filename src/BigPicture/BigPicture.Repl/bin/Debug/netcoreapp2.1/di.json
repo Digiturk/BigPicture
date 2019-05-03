@@ -1,14 +1,13 @@
 {
   "defaultAssembly": "BigPicture.Core",
   "components": [
-    //{
-    //  //"type": "BigPicture.Repository.MongoDB.RepositoryContext, BigPicture.Repository.MongoDB",
-    //  "type": "BigPicture.Repository.ArangoDB.RepositoryContext, BigPicture.Repository.ArangoDB",
-    //  "services": [
-    //    {
-    //      "type": "BigPicture.Core.Repository.IRepositoryContext"
-    //    }
-    //  ]
-    //}
+    {
+      "type": "BigPicture.Repository.Neo4j.Repository, BigPicture.Repository.Neo4j",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IRepository"
+        }
+      ]      
+    }
   ]
 }

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "BigPicture.Resolver.CSharp/1.0.0": {
+        "dependencies": {
+          "BigPicture.Core": "1.0.0"
+        },
+        "runtime": {
+          "BigPicture.Resolver.CSharp.dll": {}
+        }
+      },
+      "BigPicture.Core/1.0.0": {
+        "runtime": {
+          "BigPicture.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BigPicture.Resolver.CSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BigPicture.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
