@@ -12,7 +12,6 @@
   <ItemGroup>
     <ProjectReference Include="..\BigPicture.Core\BigPicture.Core.csproj" />
     <ProjectReference Include="..\BigPicture.IOC\BigPicture.IOC.csproj" />
-    <ProjectReference Include="..\BigPicture.Repository.MongoDB\BigPicture.Repository.MongoDB.csproj" />
   </ItemGroup>
 
   <ItemGroup>

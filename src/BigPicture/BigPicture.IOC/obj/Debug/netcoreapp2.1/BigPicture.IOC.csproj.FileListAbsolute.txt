@@ -1,0 +1,8 @@
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\bin\Debug\netcoreapp2.1\BigPicture.IOC.deps.json
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\bin\Debug\netcoreapp2.1\BigPicture.IOC.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\bin\Debug\netcoreapp2.1\BigPicture.IOC.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.csproj.CoreCompileInputs.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.AssemblyInfoInputs.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.AssemblyInfo.cs
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.IOC\obj\Debug\netcoreapp2.1\BigPicture.IOC.pdb

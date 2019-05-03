@@ -1,6 +1,4 @@
-﻿using BigPicture.Core;
-using BigPicture.Core.Repository;
-using BigPicture.IOC;
+﻿using BigPicture.IOC;
 using Replify.Net;
 using System;
 using System.Collections.Generic;
@@ -15,9 +13,7 @@ namespace BigPicture.Repl.Commands
         {
             if (param == "repo")
             {
-                var repositoryContext = Container.Resolve<IRepositoryContext>();
-                var testResult = repositoryContext.TestConnection();
-                Console.WriteLine("Test result: " + testResult);
+                
             }
             else
             {
