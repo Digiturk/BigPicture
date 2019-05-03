@@ -1,5 +1,6 @@
 ﻿using Autofac;
 using Autofac.Configuration;
+using BigPicture.Core.Resolver;
 using BigPicture.IOC.Config;
 using Microsoft.Extensions.Configuration;
 using System;
@@ -32,7 +33,11 @@ namespace BigPicture.IOC
             foreach(var resolverDefiniton in ResolversConfig.Instance.Resolvers)
             {
                 // TODO register resolver to container
-                Console.WriteLine(resolverDefiniton.Name);
+
+                var nodeType = Type.GetType(resolverDefiniton.NodeType);
+                var resolverType = Type.GetType(resolverDefiniton.Resolver);
+
+                builder.RegisterType(resolverType).As(typeof(IResolver<>).MakeGenericType(nodeType)).InstancePerDependency();
             }
         }
 

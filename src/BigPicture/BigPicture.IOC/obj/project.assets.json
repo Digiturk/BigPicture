@@ -354,6 +354,16 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "BigPicture.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/BigPicture.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BigPicture.Core.dll": {}
+        }
       }
     }
   },
@@ -1051,12 +1061,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BigPicture.Core/1.0.0": {
+      "type": "project",
+      "path": "../BigPicture.Core/BigPicture.Core.csproj",
+      "msbuildProject": "../BigPicture.Core/BigPicture.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Autofac >= 4.9.2",
       "Autofac.Configuration >= 4.1.0",
+      "BigPicture.Core >= 1.0.0",
       "Microsoft.Extensions.Configuration >= 2.2.0",
       "Microsoft.Extensions.Configuration.Json >= 2.2.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -1092,7 +1108,11 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Core\\BigPicture.Core.csproj": {
+              "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Core\\BigPicture.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

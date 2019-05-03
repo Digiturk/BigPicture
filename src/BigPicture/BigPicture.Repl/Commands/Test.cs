@@ -1,5 +1,7 @@
 ﻿using BigPicture.Core.Repository;
+using BigPicture.Core.Resolver;
 using BigPicture.IOC;
+using BigPicture.Resolver.CSharp.Nodes;
 using Replify.Net;
 using System;
 using System.Collections.Generic;
@@ -16,6 +18,8 @@ namespace BigPicture.Repl.Commands
             {
                 var repo = Container.Resolve<IRepository>();
                 Console.WriteLine(repo.TestConnection());
+
+                var resolver = Container.Resolve<IResolver<Solution>>();
             }
             else
             {
