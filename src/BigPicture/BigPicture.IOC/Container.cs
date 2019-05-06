@@ -1,7 +1,7 @@
 ﻿using Autofac;
 using Autofac.Configuration;
 using BigPicture.Core.Resolver;
-using BigPicture.IOC.Config;
+using BigPicture.Core.Config;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;

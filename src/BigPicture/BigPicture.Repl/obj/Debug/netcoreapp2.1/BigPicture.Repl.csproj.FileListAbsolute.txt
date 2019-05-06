@@ -20,3 +20,4 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\di-resolvers.json
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Resolver.CSharp.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Resolver.CSharp.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\config.json

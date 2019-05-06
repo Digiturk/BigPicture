@@ -4,8 +4,9 @@ using System.Text;
 
 namespace BigPicture.Core.Resolver
 {
-    public interface IResolver<T>
+    public interface IResolveEngine
     {
-        void Resolve();
+        void LoadStartData();
+        void StartResolvers();
     }
 }

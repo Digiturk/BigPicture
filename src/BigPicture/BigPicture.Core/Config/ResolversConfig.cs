@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace BigPicture.IOC.Config
+namespace BigPicture.Core.Config
 {
     public class ResolversConfig
     {
@@ -24,6 +24,7 @@ namespace BigPicture.IOC.Config
         }
 
         public List<ResolverDefinition> Resolvers { get; set; }
+        public List<StartData> StartData { get; set; }
     }
 
     public class ResolverDefinition
@@ -31,5 +32,11 @@ namespace BigPicture.IOC.Config
         public String Name { get; set; }
         public String NodeType { get; set; }
         public String Resolver { get; set; }
+    }
+
+    public class StartData
+    {
+        public String NodeTypeName { get; set; }
+        public object Data { get; set; }
     }
 }

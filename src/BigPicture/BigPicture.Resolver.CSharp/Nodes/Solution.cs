@@ -6,5 +6,7 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class Solution
     {
+        public String Path { get; set; }
+        public String Name { get; set; }
     }
 }

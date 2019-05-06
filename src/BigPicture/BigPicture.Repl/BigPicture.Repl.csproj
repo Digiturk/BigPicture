@@ -17,6 +17,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="config.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Update="di-resolvers.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

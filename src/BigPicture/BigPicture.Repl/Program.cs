@@ -13,7 +13,10 @@ namespace BigPicture.Repl
             Console.WriteLine("BigPicture Repl, version " + version);
 
             Replify.Net.Replify.RegisterCommand<ExitCommand>();
-            Replify.Net.Replify.RegisterCommand<Test>();
+            Replify.Net.Replify.RegisterCommand<TestCommand>();
+            Replify.Net.Replify.RegisterCommand<StartCommand>();
+            Replify.Net.Replify.RegisterCommand<ResolversCommand>();
+
 
             Replify.Net.Replify.Start();
         }

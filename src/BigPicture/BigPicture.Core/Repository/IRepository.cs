@@ -7,5 +7,7 @@ namespace BigPicture.Core.Repository
     public interface IRepository
     {
         string TestConnection();
+
+        string CreateNode(String nodeType, object data);
     }
 }

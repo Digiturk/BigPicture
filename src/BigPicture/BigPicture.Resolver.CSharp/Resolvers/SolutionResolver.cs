@@ -8,5 +8,9 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 {
     public class SolutionResolver : IResolver<Solution>
     {
+        public void Resolve()
+        {
+            Console.WriteLine("SolutionResolver.Resolve");
+        }
     }
 }

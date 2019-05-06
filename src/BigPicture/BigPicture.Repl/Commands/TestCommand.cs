@@ -10,7 +10,7 @@ using System.Text;
 namespace BigPicture.Repl.Commands
 {
     [Command("test")]
-    public class Test : BaseCommand
+    public class TestCommand : BaseCommand
     {
         public override void Run(string param = "")
         {
@@ -18,8 +18,6 @@ namespace BigPicture.Repl.Commands
             {
                 var repo = Container.Resolve<IRepository>();
                 Console.WriteLine(repo.TestConnection());
-
-                var resolver = Container.Resolve<IResolver<Solution>>();
             }
             else
             {

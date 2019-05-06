@@ -1,4 +1,13 @@
 {
+  "StartData": [
+    {
+      "NodeTypeName": "Solution",
+      "Data": {
+        "Path": "D:\\dtl1tfs1\\CSI\\Prod-OrderPlay\\CSI\\Digiturk.CSI.sln",
+        "Name": "Digiturk.CSI"
+      }
+    }
+  ],
   "Resolvers": [
     {
       "Name": "Solution",
