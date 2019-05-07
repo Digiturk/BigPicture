@@ -1619,33 +1619,17 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.2.0",
-          "Microsoft.Extensions.Configuration.Json": "2.2.0",
-          "Newtonsoft.Json": "12.0.2"
-        },
-        "compile": {
-          "bin/placeholder/BigPicture.Core.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/BigPicture.Core.dll": {}
-        }
-      },
-      "BigPicture.IOC/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
           "Autofac": "4.9.2",
           "Autofac.Configuration": "4.1.0",
-          "BigPicture.Core": "1.0.0",
           "Microsoft.Extensions.Configuration": "2.2.0",
           "Microsoft.Extensions.Configuration.Json": "2.2.0",
           "Newtonsoft.Json": "12.0.2"
         },
         "compile": {
-          "bin/placeholder/BigPicture.IOC.dll": {}
+          "bin/placeholder/BigPicture.Core.dll": {}
         },
         "runtime": {
-          "bin/placeholder/BigPicture.IOC.dll": {}
+          "bin/placeholder/BigPicture.Core.dll": {}
         }
       },
       "BigPicture.Repository.Neo4j/1.0.0": {
@@ -5461,11 +5445,6 @@
       "path": "../BigPicture.Core/BigPicture.Core.csproj",
       "msbuildProject": "../BigPicture.Core/BigPicture.Core.csproj"
     },
-    "BigPicture.IOC/1.0.0": {
-      "type": "project",
-      "path": "../BigPicture.IOC/BigPicture.IOC.csproj",
-      "msbuildProject": "../BigPicture.IOC/BigPicture.IOC.csproj"
-    },
     "BigPicture.Repository.Neo4j/1.0.0": {
       "type": "project",
       "path": "../BigPicture.Repository.Neo4j/BigPicture.Repository.Neo4j.csproj",
@@ -5480,7 +5459,6 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "BigPicture.Core >= 1.0.0",
-      "BigPicture.IOC >= 1.0.0",
       "BigPicture.Repository.Neo4j >= 1.0.0",
       "BigPicture.Resolver.CSharp >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0",
@@ -5519,9 +5497,6 @@
           "projectReferences": {
             "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Core\\BigPicture.Core.csproj": {
               "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Core\\BigPicture.Core.csproj"
-            },
-            "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.IOC\\BigPicture.IOC.csproj": {
-              "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.IOC\\BigPicture.IOC.csproj"
             },
             "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj": {
               "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj"

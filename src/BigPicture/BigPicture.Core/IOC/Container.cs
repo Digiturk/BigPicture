@@ -7,7 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BigPicture.IOC
+namespace BigPicture.Core.IOC
 {
     public static class Container
     {        
@@ -44,6 +44,11 @@ namespace BigPicture.IOC
         public static T Resolve<T>()
         {
             return _Container.Resolve<T>();
+        }
+
+        public static object Resolve(Type type)
+        {
+            return _Container.Resolve(type);
         }
     }
 }

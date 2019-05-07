@@ -5,10 +5,12 @@ using System.Text;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class Solution : INode
+    public class Project : INode
     {
         public String Id { get; set; }
-        public String Path { get; set; }
+        public String AbsolutePath { get; set; }
+        public String ProjectGuid { get; set; }
+        public String RelativePath { get; set; }
         public String Name { get; set; }
     }
 }

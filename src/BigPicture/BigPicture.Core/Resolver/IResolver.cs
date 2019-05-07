@@ -4,8 +4,8 @@ using System.Text;
 
 namespace BigPicture.Core.Resolver
 {
-    public interface IResolver<T>
+    public interface IResolver<T> where T : INode
     {
-        void Resolve();
+        void Resolve(T obj);
     }
 }

@@ -1,6 +1,6 @@
 ﻿using BigPicture.Core;
 using BigPicture.Core.Resolver;
-using BigPicture.IOC;
+using BigPicture.Core.IOC;
 using BigPicture.Core.Config;
 using Replify.Net;
 using System;

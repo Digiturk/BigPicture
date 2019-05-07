@@ -5,9 +5,7 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Repl.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Repl.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Core.dll
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.IOC.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.Core.pdb
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\netcoreapp2.1\BigPicture.IOC.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.csprojAssemblyReference.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\obj\Debug\netcoreapp2.1\BigPicture.Repl.AssemblyInfoInputs.cache
