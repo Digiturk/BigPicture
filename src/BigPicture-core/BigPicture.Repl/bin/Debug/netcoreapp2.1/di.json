@@ -1,0 +1,23 @@
+{
+  "defaultAssembly": "BigPicture.Core",
+  "components": [
+    {
+      "injectProperties": true,
+      "type": "BigPicture.Core.Resolver.ResolveEngine",
+      "services": [
+        {
+          "type": "BigPicture.Core.Resolver.IResolveEngine"
+        }
+      ]
+    },
+    {
+      "injectProperties": true,
+      "type": "BigPicture.Repository.Neo4j.Repository, BigPicture.Repository.Neo4j",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IRepository"
+        }
+      ]
+    }
+  ]
+}

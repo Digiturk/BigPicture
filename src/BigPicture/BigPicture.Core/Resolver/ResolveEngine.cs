@@ -22,15 +22,17 @@ namespace BigPicture.Core.Resolver
             foreach(var startData in ResolversConfig.Instance.StartData)
             {
                 var id = this.Repository.CreateNode(startData.NodeTypeName, startData.Data);
-                Console.WriteLine(startData.NodeTypeName + " save to repository with " + id + " id");
+                Console.WriteLine(startData.NodeTypeName + " saved to repository with " + id + " id");
             }
         }
 
         public void StartResolvers()
         {
+            this.Repository.DeleteAll();
             LoadStartData();
 
-            foreach(var resolverDefinition in ResolversConfig.Instance.Resolvers)
+            Console.WriteLine();
+            foreach (var resolverDefinition in ResolversConfig.Instance.Resolvers)
             {
                 Resolve(resolverDefinition);
             }
@@ -38,6 +40,7 @@ namespace BigPicture.Core.Resolver
 
         public void Resolve(ResolverDefinition resolverDefinition)
         {
+            
             Console.WriteLine($"Starting {resolverDefinition.Name} resolver...");
             var sw = Stopwatch.StartNew();
 
@@ -62,6 +65,8 @@ namespace BigPicture.Core.Resolver
 
             sw.Stop();
             Console.WriteLine($"Finished {resolverDefinition.Name} resolver: {sw.ElapsedMilliseconds}ms");
+
+            Console.WriteLine();
         }
     }
 }

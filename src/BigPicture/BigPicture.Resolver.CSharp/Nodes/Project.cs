@@ -12,5 +12,9 @@ namespace BigPicture.Resolver.CSharp.Nodes
         public String ProjectGuid { get; set; }
         public String RelativePath { get; set; }
         public String Name { get; set; }
+
+        public String OutputType { get; set; }
+        public String AssemblyName { get; set; }
+        public String TargetFrameworkVersion { get; set; }
     }
 }

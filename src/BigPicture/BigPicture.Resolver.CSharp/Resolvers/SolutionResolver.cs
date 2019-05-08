@@ -19,7 +19,6 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
         public void Resolve(Solution solution)
         {
-            Console.WriteLine("Node processing: " + solution.Name);
             var solutionFile = SolutionFile.Parse(solution.Path);
 
             var projectNodes = new List<Project>();
