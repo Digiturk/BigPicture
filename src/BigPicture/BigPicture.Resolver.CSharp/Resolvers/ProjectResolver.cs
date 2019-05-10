@@ -41,11 +41,11 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
             this._Repository.UpdateNode(project);
             
-            var dlls = this._Repository.GetAllNodes<Dll>("Dll", new { Name = project.AssemblyName });
-            if(dlls.Count == 0)
+            var assemblies = this._Repository.GetAllNodes<Assembly>("Assembly", new { Name = project.AssemblyName });
+            if(assemblies.Count == 0)
             {
-                var dllId = this._Repository.CreateNode("Dll", new { Name = project.AssemblyName });
-                this._Repository.CreateRelationship(project.Id, dllId, "EXPORTS");
+                var assemblyId = this._Repository.CreateNode("Assembly", new { Name = project.AssemblyName });
+                this._Repository.CreateRelationship(project.Id, assemblyId, "EXPORTS");
             }
         }
 
@@ -64,21 +64,20 @@ namespace BigPicture.Resolver.CSharp.Resolvers
         {
             foreach(var reference in references)
             {
-                var dll = new Dll();
-                dll.Name = reference.Include.Split(',')[0];
+                var assembly = new Assembly();
+                assembly.Name = reference.Include.Split(',')[0];
 
-
-                var dlls = this._Repository.GetAllNodes<Dll>("Dll", new { Name = dll.Name });
-                if (dlls.Count == 0)
+                var assemblies = this._Repository.GetAllNodes<Assembly>("Assembly", new { Name = assembly.Name });
+                if (assemblies.Count == 0)
                 {
-                    dll.Id = this._Repository.CreateNode("Dll", dll);
+                    assembly.Id = this._Repository.CreateNode("Assembly", assembly);
                 }
                 else
                 {
-                    dll = dlls[0];
+                    assembly = assemblies[0];
                 }
                 
-                this._Repository.CreateRelationship(project.Id, dll.Id, "REFERENCES");
+                this._Repository.CreateRelationship(project.Id, assembly.Id, "REFERENCES");
             }                        
         }
 
@@ -86,21 +85,31 @@ namespace BigPicture.Resolver.CSharp.Resolvers
         {
             foreach (var item in compileItems)
             {
-                //var dll = new Dll();
-                //dll.Name = reference.Include.Split(',')[0];
+                var compileItem = new CompileItem();
+                compileItem.Path = item.Include;
+                compileItem.Name = Path.GetFileName(compileItem.Path);
+                compileItem.AbsolutePath = Path.Combine(Path.GetDirectoryName(project.AbsolutePath), compileItem.Path);
 
+                foreach(var child in item.Children)
+                {
+                    if (child.ElementName == "SubType")
+                    {
+                        compileItem.SubType = ((ProjectMetadataElement)child).Value;
+                    }
 
-                //var dlls = this._Repository.GetAllNodes<Nodes.File>("Dll", new { Name = dll.Name });
-                //if (dlls.Count == 0)
-                //{
-                //    dll.Id = this._Repository.CreateNode("Dll", dll);
-                //}
-                //else
-                //{
-                //    dll = dlls[0];
-                //}
+                    if (child.ElementName == "AutoGen")
+                    {
+                        compileItem.AutoGen = ((ProjectMetadataElement)child).Value;
+                    }
 
-                //this._Repository.CreateRelationship(project.Id, dll.Id, "REFERENCES");
+                    if (child.ElementName == "DesignTime")
+                    {
+                        compileItem.DesignTime = ((ProjectMetadataElement)child).Value;
+                    }
+                }
+
+                compileItem.Id = this._Repository.CreateNode("CompileItem", compileItem);
+                this._Repository.CreateRelationship(project.Id, compileItem.Id, "COMPILES");
             }
         }
     }

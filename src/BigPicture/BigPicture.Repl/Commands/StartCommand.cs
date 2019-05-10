@@ -28,6 +28,10 @@ namespace BigPicture.Repl.Commands
             {
                 resolveEngine.StartResolvers();
             }
+            else
+            {
+                resolveEngine.StartResolver(param);
+            }
         }
     }
 }

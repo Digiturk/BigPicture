@@ -16,20 +16,27 @@ namespace BigPicture.Core.Config
             {
                 if(_Instance == null)
                 {
-                    _Instance = JsonConvert.DeserializeObject<ResolversConfig>(File.ReadAllText(@"di-resolvers.json"));                    
+                    _Instance = JsonConvert.DeserializeObject<ResolversConfig>(File.ReadAllText(@"di-resolvers.json"));
                 }
 
                 return _Instance;
             }
         }
 
+        public Options Options { get; set; }
         public List<ResolverDefinition> Resolvers { get; set; }
         public List<StartData> StartData { get; set; }
+    }
+
+    public class Options
+    {
+        public bool RemoveAllOnStart { get; set; }
     }
 
     public class ResolverDefinition
     {
         public String Name { get; set; }
+        public String Resolves { get; set; }
         public String NodeType { get; set; }
         public String Resolver { get; set; }
     }

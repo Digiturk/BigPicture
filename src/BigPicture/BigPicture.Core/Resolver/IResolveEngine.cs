@@ -7,6 +7,7 @@ namespace BigPicture.Core.Resolver
     public interface IResolveEngine
     {
         void LoadStartData();
+        void StartResolver(String name);
         void StartResolvers();
     }
 }

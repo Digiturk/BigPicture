@@ -1,4 +1,5 @@
 ﻿using BigPicture.Repl.Commands;
+using BigPicture.Resolver.CSharp.Resolvers;
 using Replify.Net.Commands;
 using System;
 using System.Collections.Generic;

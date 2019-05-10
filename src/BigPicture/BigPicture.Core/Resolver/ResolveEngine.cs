@@ -28,13 +28,30 @@ namespace BigPicture.Core.Resolver
 
         public void StartResolvers()
         {
-            this.Repository.DeleteAll();
+            if(ResolversConfig.Instance.Options.RemoveAllOnStart)
+            {
+                this.Repository.DeleteAll();
+            }
             LoadStartData();
 
             Console.WriteLine();
             foreach (var resolverDefinition in ResolversConfig.Instance.Resolvers)
             {
                 Resolve(resolverDefinition);
+            }
+        }
+
+        public void StartResolver(String name)
+        {
+            var resolverDefinition = ResolversConfig.Instance.Resolvers.Find(r => r.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+
+            if(resolverDefinition != null)
+            {
+                Resolve(resolverDefinition);
+            }
+            else
+            {
+                Console.Error.WriteLine("Resolver definition could not be found for " + name);
             }
         }
 
@@ -47,7 +64,7 @@ namespace BigPicture.Core.Resolver
             try
             {
                 var type = Type.GetType(resolverDefinition.NodeType);
-                var nodes = this.Repository.GetAllNodes(resolverDefinition.Name, type);
+                var nodes = this.Repository.GetAllNodes(resolverDefinition.Resolves, type);
 
                 var resolverType = typeof(IResolver<>).MakeGenericType(type);
                 var resolver = Container.Resolve(resolverType);
