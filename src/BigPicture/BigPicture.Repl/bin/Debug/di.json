@@ -106,6 +106,14 @@
           "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
         }
       ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.MethodDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
     }
   ]
 }
