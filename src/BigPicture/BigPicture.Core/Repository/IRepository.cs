@@ -12,12 +12,14 @@ namespace BigPicture.Core.Repository
 
         string CreateRelationship(String from, String to, String relationShip);
 
-        string CreateNode(String nodeType, object data);
+        string CreateNode(object node, params String[] nodeTypes);
 
-        void UpdateNode<T>(T node) where T : BigPicture.Core.INode;
+        void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.INode;
 
-        List<INode> GetAllNodes(String nodeType, Type type, dynamic filterObject = null);
+        List<INode> GetAllNodes(String nodeType, Type type, object filterObject = null);
 
-        List<T> GetAllNodes<T>(String nodeType, dynamic filterObject = null) where T : BigPicture.Core.INode;
+        List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode;
+
+        String FindIdOrCreate(object node, String nodeType, object filterObject);
     }
 }

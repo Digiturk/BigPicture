@@ -45,8 +45,9 @@ namespace BigPicture.Repository.Neo4j
             return result.Peek()[0].ToString();
         }
 
-        public string CreateNode(String nodeType, object node)
+        public string CreateNode(object node, params String[] nodeTypes)
         {
+            var nodeType = String.Join(":", nodeTypes);
             var jsonData = ToJson(node);
             var statement = $"CREATE (a:{nodeType} {jsonData}) RETURN id(a)";
 
@@ -54,10 +55,17 @@ namespace BigPicture.Repository.Neo4j
             return result.Peek()[0].ToString();
         }
 
-        public void UpdateNode<T>(T node) where T : BigPicture.Core.INode
+        public void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.INode
         {
+            var nodeType = String.Join("", nodeTypes.Select(a => ":" + a));
+            var typeAssign = "";
+            if(String.IsNullOrEmpty(nodeType) == false)
+            {
+                typeAssign = $", n{nodeType}";
+            }
+
             var jsonData = ToJson(node);
-            var statement = $"MATCH (n) WHERE ID(n) = {node.Id} SET n = {jsonData} RETURN n";
+            var statement = $"MATCH (n) WHERE ID(n) = {node.Id} SET n = {jsonData} {typeAssign} RETURN n";
 
             var result = this.Write(statement);
         }
@@ -72,19 +80,11 @@ namespace BigPicture.Repository.Neo4j
 
             var result = this.Read($"MATCH (a:{nodeType} {filter}) RETURN a");
 
-            var resultList = new List<BigPicture.Core.INode>();
-            foreach (var record in result)
-            {
-                var nodeProps = JsonConvert.SerializeObject(record[0].As<NeoINode>().Properties);
-                var node = (BigPicture.Core.INode)JsonConvert.DeserializeObject(nodeProps, type);
-                node.Id = record[0].As<NeoINode>().Id.ToString();
-                resultList.Add(node);
-            }
-
+            var resultList = result.Select(a => this.ToNode(a, type)).ToList();            
             return resultList;
         }
 
-        public List<T> GetAllNodes<T>(String nodeType, dynamic filterObject = null) where T : BigPicture.Core.INode
+        public List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode
         {
             List<BigPicture.Core.INode> result = this.GetAllNodes(nodeType, typeof(T), filterObject);
             return result.Cast<T>().ToList();
@@ -99,6 +99,20 @@ namespace BigPicture.Repository.Neo4j
                     var result = session.Run(statement);
                     return result;                    
                 }
+            }
+        }
+
+        public String FindIdOrCreate(object node, String nodeType, object filterObject)
+        {
+            var result = this.GetAllNodes(nodeType, node.GetType(), filterObject);
+            if (result.Count > 0)
+            {
+                return result[0].Id;
+            }
+            else
+            {
+                var id = this.CreateNode(node, nodeType);
+                return id;
             }
         }
 
@@ -128,5 +142,14 @@ namespace BigPicture.Repository.Neo4j
             }
             return stringWriter.ToString();
         }
+
+        private Core.INode ToNode(IRecord record, Type type)
+        {
+            var nodeProps = JsonConvert.SerializeObject(record[0].As<NeoINode>().Properties);
+            var node = (BigPicture.Core.INode)JsonConvert.DeserializeObject(nodeProps, type);
+            node.Id = record[0].As<NeoINode>().Id.ToString();
+
+            return node;
+        }        
     }
 }

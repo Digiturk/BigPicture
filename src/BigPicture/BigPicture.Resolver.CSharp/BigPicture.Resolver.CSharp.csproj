@@ -121,6 +121,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeAnalysers\IAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\AttributeAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\AttributeListAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\EnumMemberDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\FieldDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\StructDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\EnumDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\InterfaceDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\ClassDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\NamespaceDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\BaseListAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\UsingDirectiveAnalyser.cs" />
+    <Compile Include="Nodes\EnumMember.cs" />
+    <Compile Include="Nodes\Type.cs" />
+    <Compile Include="Nodes\Field.cs" />
+    <Compile Include="Nodes\Struct.cs" />
+    <Compile Include="Nodes\Class.cs" />
+    <Compile Include="Nodes\Enum.cs" />
+    <Compile Include="Nodes\Interface.cs" />
+    <Compile Include="Nodes\NameSpace.cs" />
     <Compile Include="Nodes\Assembly.cs" />
     <Compile Include="Nodes\CompileItem.cs" />
     <Compile Include="Nodes\Project.cs" />
@@ -144,5 +164,6 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.2\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.2\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using Autofac.Core;
 
 namespace BigPicture.Core.IOC
 {
@@ -32,23 +33,43 @@ namespace BigPicture.Core.IOC
         {
             foreach(var resolverDefiniton in ResolversConfig.Instance.Resolvers)
             {
-                // TODO register resolver to container
-
                 var nodeType = Type.GetType(resolverDefiniton.NodeType);
                 var resolverType = Type.GetType(resolverDefiniton.Resolver);
 
-                builder.RegisterType(resolverType).As(typeof(IResolver<>).MakeGenericType(nodeType)).InstancePerDependency();
+                builder
+                    .RegisterType(resolverType)
+                    .Keyed(resolverDefiniton.Name, typeof(IResolver<>).MakeGenericType(nodeType))
+                    .As(typeof(IResolver<>).MakeGenericType(nodeType))                    
+                    .InstancePerDependency();
             }
         }
-
+     
         public static T Resolve<T>()
         {
             return _Container.Resolve<T>();
         }
 
         public static object Resolve(Type type)
-        {
+        {           
             return _Container.Resolve(type);
+        }
+
+        public static object TryResolve(Type type)
+        {
+            object result;
+            if(_Container.TryResolve(type, out result))
+            {
+                return result;
+            }
+            else
+            {
+                return null;
+            }
+        }
+
+        public static object ResolveWithKey(object key, Type type)
+        {
+            return _Container.ResolveKeyed(key, type);
         }
     }
 }

@@ -44,7 +44,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             var assemblies = this._Repository.GetAllNodes<Assembly>("Assembly", new { Name = project.AssemblyName });
             if(assemblies.Count == 0)
             {
-                var assemblyId = this._Repository.CreateNode("Assembly", new { Name = project.AssemblyName });
+                var assemblyId = this._Repository.CreateNode(new { Name = project.AssemblyName }, "Assembly");
                 this._Repository.CreateRelationship(project.Id, assemblyId, "EXPORTS");
             }
         }
@@ -67,15 +67,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
                 var assembly = new Assembly();
                 assembly.Name = reference.Include.Split(',')[0];
 
-                var assemblies = this._Repository.GetAllNodes<Assembly>("Assembly", new { Name = assembly.Name });
-                if (assemblies.Count == 0)
-                {
-                    assembly.Id = this._Repository.CreateNode("Assembly", assembly);
-                }
-                else
-                {
-                    assembly = assemblies[0];
-                }
+                assembly.Id = this._Repository.FindIdOrCreate(assembly, "Assembly", new { Name = assembly.Name });
                 
                 this._Repository.CreateRelationship(project.Id, assembly.Id, "REFERENCES");
             }                        
@@ -88,7 +80,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
                 var compileItem = new CompileItem();
                 compileItem.Path = item.Include;
                 compileItem.Name = Path.GetFileName(compileItem.Path);
-                compileItem.AbsolutePath = Path.Combine(Path.GetDirectoryName(project.AbsolutePath), compileItem.Path);
+                compileItem.AbsolutePath = Path.GetFullPath(Path.Combine(Path.GetDirectoryName(project.AbsolutePath), compileItem.Path));
 
                 foreach(var child in item.Children)
                 {
@@ -108,7 +100,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
                     }
                 }
 
-                compileItem.Id = this._Repository.CreateNode("CompileItem", compileItem);
+                compileItem.Id = this._Repository.FindIdOrCreate(compileItem, "CompileItem", new { AbsolutePath = compileItem.AbsolutePath });
                 this._Repository.CreateRelationship(project.Id, compileItem.Id, "COMPILES");
             }
         }

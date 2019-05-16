@@ -30,16 +30,8 @@ namespace BigPicture.Resolver.CSharp.Resolvers
                 projectNode.ProjectGuid = project.ProjectGuid;
                 projectNode.RelativePath = project.RelativePath;
 
-                var list = this._Repository.GetAllNodes<Project>("Project", new { AbsolutePath = projectNode.AbsolutePath });
-                if(list.Count == 0)
-                {
-                    projectNode.Id = this._Repository.CreateNode("Project", projectNode);
-                }
-                else
-                {
-                    projectNode = list[0];
-                }
-                
+
+                projectNode.Id = this._Repository.FindIdOrCreate(projectNode, "Project", new { AbsolutePath = projectNode.AbsolutePath });
                 this._Repository.CreateRelationship(solution.Id, projectNode.Id, "CONTAINS");
 
                 projectNodes.Add(projectNode);
