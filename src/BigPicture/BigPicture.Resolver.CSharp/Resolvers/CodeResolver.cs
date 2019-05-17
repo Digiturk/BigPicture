@@ -86,7 +86,6 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             else 
             {
                 if (nodeType != typeof(PropertyDeclarationSyntax) &&
-                    nodeType != typeof(DestructorDeclarationSyntax) &&
                     nodeType != typeof(DelegateDeclarationSyntax) &&
                     nodeType != typeof(EventFieldDeclarationSyntax) &&
                     nodeType != typeof(IndexerDeclarationSyntax) &&

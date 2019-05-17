@@ -125,6 +125,14 @@
       ]
     },
     {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.DestructorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.DestructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
       "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ParameterAnalyser, BigPicture.Resolver.CSharp",
       "services": [
         {
