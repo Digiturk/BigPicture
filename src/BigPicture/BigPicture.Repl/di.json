@@ -115,6 +115,22 @@
           "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
         }
       ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ConstructorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ParameterAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
     }
   ]
 }

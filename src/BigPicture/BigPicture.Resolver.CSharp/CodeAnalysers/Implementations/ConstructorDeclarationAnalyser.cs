@@ -11,44 +11,36 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 {
-    public class MethodDeclarationAnalyser : IAnalyser<MethodDeclarationSyntax>
+    public class ConstructorDeclarationAnalyser : IAnalyser<ConstructorDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
 
-        public MethodDeclarationAnalyser(IRepository repository)
+        public ConstructorDeclarationAnalyser(IRepository repository)
         {
             this._Repository = repository;
         }
 
-        public void Analyse(string parentId, MethodDeclarationSyntax node, SemanticModel model)
+        public void Analyse(string parentId, ConstructorDeclarationSyntax node, SemanticModel model)
         {
-            var method = new Method();
+            var method = new Constructor();
 
             method.Name = node.Identifier.Text;
             method.Modifier = String.Join(", ", node.Modifiers.Select(a => a.Text));
-            method.HasBody = node.Body != null;
 
-            method.Id = this._Repository.CreateNode(method, "Method");
+            method.Id = this._Repository.CreateNode(method, "Constructor");
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
-
-            var returnSymbol = model.GetSymbolInfo(node.ReturnType);
-            var returnTypeId = CodeResolver.FindOrCreateType(returnSymbol.Symbol);
-            if(String.IsNullOrEmpty(returnTypeId) == false)
-            {
-                this._Repository.CreateRelationship(method.Id, returnTypeId, "TYPEOF");
-            }
 
             foreach(var prmNode in node.ParameterList.ChildNodes())
             {
                 CodeResolver.FindVisitorForNode(method.Id, model, prmNode);
             }
 
-            foreach(var attr in node.AttributeLists)
+            foreach (var attr in node.AttributeLists)
             {
                 CodeResolver.FindVisitorForNode(method.Id, model, attr);
-            }
+            }            
 
-            if(node.Body != null)
+            if (node.Body != null)
             {
                 CodeResolver.FindVisitorForNode(method.Id, model, node.Body);
             }
