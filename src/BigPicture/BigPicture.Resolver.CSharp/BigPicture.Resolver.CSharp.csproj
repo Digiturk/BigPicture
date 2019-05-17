@@ -124,8 +124,11 @@
     <Compile Include="CodeAnalysers\IAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\AttributeAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\AttributeListAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\DestructorDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\EnumMemberDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\ConstructorDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\AccessorDeclarationAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\PropertyDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\ParameterAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\MethodDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\FieldDeclarationAnalyser.cs" />
@@ -136,8 +139,11 @@
     <Compile Include="CodeAnalysers\Implementations\NamespaceDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\BaseListAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\UsingDirectiveAnalyser.cs" />
+    <Compile Include="Nodes\Destructor.cs" />
     <Compile Include="Nodes\EnumMember.cs" />
     <Compile Include="Nodes\Constructor.cs" />
+    <Compile Include="Nodes\Accessor.cs" />
+    <Compile Include="Nodes\Property.cs" />
     <Compile Include="Nodes\Parameter.cs" />
     <Compile Include="Nodes\Method.cs" />
     <Compile Include="Nodes\Type.cs" />

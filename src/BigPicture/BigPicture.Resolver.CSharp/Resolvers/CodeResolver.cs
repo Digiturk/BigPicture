@@ -37,7 +37,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
             _Compilation = compilation as CSharpCompilation;
 
-            //foreach(var syntaxTree in compilation.SyntaxTrees)
+            //foreach (var syntaxTree in compilation.SyntaxTrees)
             //{
             //    this.ProcessSyntaxTree(projectNode, syntaxTree);
             //}
@@ -85,8 +85,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             }
             else 
             {
-                if (nodeType != typeof(PropertyDeclarationSyntax) &&
-                    nodeType != typeof(DelegateDeclarationSyntax) &&
+                if (nodeType != typeof(DelegateDeclarationSyntax) &&
                     nodeType != typeof(EventFieldDeclarationSyntax) &&
                     nodeType != typeof(IndexerDeclarationSyntax) &&
                     nodeType != typeof(BlockSyntax))

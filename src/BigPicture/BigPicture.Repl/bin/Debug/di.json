@@ -109,6 +109,22 @@
       ]
     },
     {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.PropertyDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.AccessorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
       "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.MethodDeclarationAnalyser, BigPicture.Resolver.CSharp",
       "services": [
         {
@@ -121,6 +137,14 @@
       "services": [
         {
           "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.DestructorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.DestructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
         }
       ]
     },
