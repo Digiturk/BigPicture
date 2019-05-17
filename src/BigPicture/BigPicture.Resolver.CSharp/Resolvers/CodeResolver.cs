@@ -37,10 +37,15 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
             _Compilation = compilation as CSharpCompilation;
 
-            foreach(var syntaxTree in compilation.SyntaxTrees)
+            //foreach(var syntaxTree in compilation.SyntaxTrees)
+            //{
+            //    this.ProcessSyntaxTree(projectNode, syntaxTree);
+            //}
+
+            Parallel.ForEach<SyntaxTree>(compilation.SyntaxTrees, (SyntaxTree syntaxTree) =>
             {
                 this.ProcessSyntaxTree(projectNode, syntaxTree);
-            }
+            });
         }
 
         private void ProcessSyntaxTree(Nodes.Project projectNode, SyntaxTree tree)

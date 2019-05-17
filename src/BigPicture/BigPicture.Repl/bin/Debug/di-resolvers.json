@@ -15,18 +15,21 @@
     {
       "Name": "Solution",
       "Resolves": "Solution",
+      "RunParallel": true,
       "NodeType": "BigPicture.Resolver.CSharp.Nodes.Solution, BigPicture.Resolver.CSharp",
       "Resolver": "BigPicture.Resolver.CSharp.Resolvers.SolutionResolver, BigPicture.Resolver.CSharp"
     },
     {
       "Name": "Project",
       "Resolves": "Project",
+      "RunParallel": true,
       "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
       "Resolver": "BigPicture.Resolver.CSharp.Resolvers.ProjectResolver, BigPicture.Resolver.CSharp"
     },
     {
       "Name": "Code",
       "Resolves": "Project",
+      "RunParallel": false,
       "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
       "Resolver": "BigPicture.Resolver.CSharp.Resolvers.CodeResolver, BigPicture.Resolver.CSharp"
     }

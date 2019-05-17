@@ -33,7 +33,10 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             var returnSymbol = model.GetSymbolInfo(node.ReturnType);
             var returnTypeId = CodeResolver.FindOrCreateType(returnSymbol.Symbol);
-            this._Repository.CreateRelationship(method.Id, returnTypeId, "TYPEOF");
+            if(String.IsNullOrEmpty(returnTypeId) == false)
+            {
+                this._Repository.CreateRelationship(method.Id, returnTypeId, "TYPEOF");
+            }
 
             foreach(var prmNode in node.ParameterList.ChildNodes())
             {

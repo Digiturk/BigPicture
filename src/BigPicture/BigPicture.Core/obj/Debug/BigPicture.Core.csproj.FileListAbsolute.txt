@@ -37,3 +37,4 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Runti
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csprojAssemblyReference.cache

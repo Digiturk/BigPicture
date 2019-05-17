@@ -8,11 +8,14 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 using System.IO;
+using System.Diagnostics;
 
 namespace BigPicture.Repository.Neo4j
 {
-    public class Repository : IRepository
+    public class Repository : IRepository, IDisposable
     {
+        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.Repository);
+
         public string TestConnection()
         {
             try
@@ -52,6 +55,7 @@ namespace BigPicture.Repository.Neo4j
             var statement = $"CREATE (a:{nodeType} {jsonData}) RETURN id(a)";
 
             var result = this.Write(statement);
+
             return result.Peek()[0].ToString();
         }
 
@@ -90,18 +94,6 @@ namespace BigPicture.Repository.Neo4j
             return result.Cast<T>().ToList();
         }
 
-        private IStatementResult Read(String statement)
-        {
-            using (var driver = GraphDatabase.Driver(CommonConfig.Instance.Repository))
-            {
-                using (var session = driver.Session())
-                {
-                    var result = session.Run(statement);
-                    return result;                    
-                }
-            }
-        }
-
         public String FindIdOrCreate(object node, String nodeType, object filterObject)
         {
             var result = this.GetAllNodes(nodeType, node.GetType(), filterObject);
@@ -111,23 +103,40 @@ namespace BigPicture.Repository.Neo4j
             }
             else
             {
-                var id = this.CreateNode(node, nodeType);
-                return id;
+                lock (_Driver)
+                {
+                    result = this.GetAllNodes(nodeType, node.GetType(), filterObject);
+                    if (result.Count > 0)
+                    {
+                        return result[0].Id;
+                    }
+                    else
+                    {
+                        var id = this.CreateNode(node, nodeType);
+                        return id;
+                    }
+                }
+            }
+        }
+
+        private IStatementResult Read(String statement)
+        {
+            using (var session = this._Driver.Session())
+            {
+                var result = session.Run(statement);
+                return result;                    
             }
         }
 
         private IStatementResult Write(String statement)
         {
-            using (var driver = GraphDatabase.Driver(CommonConfig.Instance.Repository))
+            using (var session = this._Driver.Session())
             {
-                using (var session = driver.Session())
+                return session.WriteTransaction(tx =>
                 {
-                    return session.WriteTransaction(tx =>
-                    {
-                        var result = tx.Run(statement);
-                        return result;
-                    });
-                }
+                    var result = tx.Run(statement);
+                    return result;
+                });
             }
         }
 
@@ -150,6 +159,23 @@ namespace BigPicture.Repository.Neo4j
             node.Id = record[0].As<NeoINode>().Id.ToString();
 
             return node;
-        }        
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                if (this._Driver != null)
+                {
+                    this._Driver.Dispose();
+                }
+            }
+        }
     }
 }

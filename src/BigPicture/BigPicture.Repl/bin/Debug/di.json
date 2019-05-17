@@ -12,6 +12,7 @@
     },
     {
       "injectProperties": true,
+      "instanceScope": "single-instance",
       "type": "BigPicture.Repository.Neo4j.Repository, BigPicture.Repository.Neo4j",
       "services": [
         {

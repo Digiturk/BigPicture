@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace BigPicture.Core.Resolver
 {
@@ -73,12 +74,26 @@ namespace BigPicture.Core.Resolver
 
                 using (var progress = new ProgressBar())
                 {
-                    progress.Report(0);
-                    for(var i = 0; i < nodes.Count; i++) 
+                    var progressCount = 0;
+                    progress.Report(progressCount);
+                    
+                    if(resolverDefinition.RunParallel)
                     {
-                        var node = nodes[i];
-                        resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
-                        progress.Report((double)i / nodes.Count);
+                        Parallel.ForEach<INode>(nodes, (INode node) =>
+                        {
+                            resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
+                            progressCount++;
+                            progress.Report(progressCount / nodes.Count);
+                        });
+                    }
+                    else
+                    {
+                        foreach(var node in nodes)
+                        {
+                            resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
+                            progressCount++;
+                            progress.Report(progressCount / nodes.Count);
+                        }
                     }
                 }
             }
