@@ -36,6 +36,20 @@ namespace BigPicture.Repository.Neo4j
             this.Write(statement);
         }
 
+        public T FindNode<T>(String id) where T : BigPicture.Core.INode
+        {
+            var result = this.Read($"MATCH (a) WHERE Id(a) = {id} RETURN a");
+
+            var resultList = result.Select(a => this.ToNode(a, typeof(T))).ToList();
+            if(resultList.Count > 0)
+            {
+                return (T) resultList[0];
+            }
+
+
+            return default(T);
+        }
+
         public string CreateRelationship(String from, String to, String relationShip)
         {
             var statement = $@"
@@ -88,6 +102,27 @@ namespace BigPicture.Repository.Neo4j
             return resultList;
         }
 
+        public String FindIdOrCreateSubNode(object node, String nodeType, String id, String relation, String subNodeType, dynamic filterObject = null)
+        {
+            var filter = "";
+            if (filterObject != null)
+            {
+                filter = ToJson(filterObject);
+            }
+
+            var result = this.Read($"MATCH (a:{nodeType})-[:{relation}]->(b:{subNodeType} {filter}) WHERE Id(a) = {id} RETURN a");
+
+            var resultList = result.Select(a => this.ToNode(a, node.GetType())).ToList();
+            if(resultList.Count > 0)
+            {
+                return resultList[0].Id;
+            }
+
+            var subNodeId = this.CreateNode(node, subNodeType);
+            this.CreateRelationship(id, subNodeId, relation);
+            return subNodeId;            
+        }
+
         public List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode
         {
             List<BigPicture.Core.INode> result = this.GetAllNodes(nodeType, typeof(T), filterObject);
@@ -96,7 +131,12 @@ namespace BigPicture.Repository.Neo4j
 
         public String FindIdOrCreate(object node, String nodeType, object filterObject)
         {
-            var result = this.GetAllNodes(nodeType, node.GetType(), filterObject);
+            return this.FindIdOrCreate(node, new string[] { nodeType }, filterObject);
+        }
+
+        public String FindIdOrCreate(object node, String[] nodeTypes, object filterObject)
+        {
+            var result = this.GetAllNodes(nodeTypes[0], node.GetType(), filterObject);
             if (result.Count > 0)
             {
                 return result[0].Id;
@@ -105,14 +145,14 @@ namespace BigPicture.Repository.Neo4j
             {
                 lock (_Driver)
                 {
-                    result = this.GetAllNodes(nodeType, node.GetType(), filterObject);
+                    result = this.GetAllNodes(nodeTypes[0], node.GetType(), filterObject);
                     if (result.Count > 0)
                     {
                         return result[0].Id;
                     }
                     else
                     {
-                        var id = this.CreateNode(node, nodeType);
+                        var id = this.CreateNode(node, nodeTypes);
                         return id;
                     }
                 }

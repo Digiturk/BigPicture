@@ -22,17 +22,29 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
         public void Analyse(string parentId, MethodDeclarationSyntax node, SemanticModel model)
         {
+            var owner = this._Repository.FindNode<Nodes.Type>(parentId);
+
+
             var method = new Method();
 
+            method.Assemly = owner.Assembly;
+            method.NameSpace = owner.NameSpace;
+            method.OwnerName = owner.Name;
             method.Name = node.Identifier.Text;
             method.Modifier = String.Join(", ", node.Modifiers.Select(a => a.Text));
             method.HasBody = node.Body != null;
 
-            method.Id = this._Repository.CreateNode(method, "Method");
+            method.Id = this._Repository.FindIdOrCreate(method, "Method", new
+            {
+                Assembly = method.Assemly,
+                NameSpace = method.NameSpace,
+                OwnerName = method.OwnerName,
+                Name = method.OwnerName
+            });
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
 
             var returnSymbol = model.GetSymbolInfo(node.ReturnType);
-            var returnTypeId = CodeResolver.FindOrCreateType(returnSymbol.Symbol);
+            var returnTypeId = CodeResolver.FindOrCreateType(returnSymbol.Symbol)?.Id;
             if(String.IsNullOrEmpty(returnTypeId) == false)
             {
                 this._Repository.CreateRelationship(method.Id, returnTypeId, "TYPEOF");

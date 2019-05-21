@@ -38,7 +38,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             #region Find Type and create relationship
 
-            var typeId = CodeResolver.FindOrCreateType(symbol.Symbol);
+            var typeId = CodeResolver.FindOrCreateType(symbol.Symbol)?.Id;
             if(String.IsNullOrEmpty(typeId) == false)
             {
                 this._Repository.CreateRelationship(property.Id, typeId, "TYPEOF");

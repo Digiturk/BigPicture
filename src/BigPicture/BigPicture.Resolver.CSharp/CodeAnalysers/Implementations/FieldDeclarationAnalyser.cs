@@ -40,7 +40,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             #region Find Type and create relationship
 
-            var typeId = CodeResolver.FindOrCreateType(symbol.Symbol);
+            var typeId = CodeResolver.FindOrCreateType(symbol.Symbol)?.Id;
             if(String.IsNullOrEmpty(typeId) == false)
             {
                 this._Repository.CreateRelationship(field.Id, typeId, "TYPEOF");
@@ -58,7 +58,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
                     var valueTypeSyntax = (variableSyntax.Initializer.Value as ObjectCreationExpressionSyntax).Type;
                     var valueSymbol = model.GetSymbolInfo(valueTypeSyntax);
 
-                    typeId = CodeResolver.FindOrCreateType(valueSymbol.Symbol);
+                    typeId = CodeResolver.FindOrCreateType(valueSymbol.Symbol)?.Id;
                     if(String.IsNullOrEmpty(typeId) == false)
                     {
                         this._Repository.CreateRelationship(field.Id, typeId, "INITIALIZEDWITH");

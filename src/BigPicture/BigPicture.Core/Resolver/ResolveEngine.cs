@@ -74,7 +74,7 @@ namespace BigPicture.Core.Resolver
 
                 using (var progress = new ProgressBar())
                 {
-                    var progressCount = 0;
+                    var progressCount = 0d;
                     progress.Report(progressCount);
                     
                     if(resolverDefinition.RunParallel)

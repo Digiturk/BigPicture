@@ -49,14 +49,14 @@ namespace BigPicture.Resolver.CSharp.Resolvers
         }
 
         private void ProcessSyntaxTree(Nodes.Project projectNode, SyntaxTree tree)
-        {            
+        {
             var rootSyntaxNode = tree.GetRootAsync().Result;
             var model = this._Compilation.GetSemanticModel(tree);
 
-            var compileItemId = "";            
+            var compileItemId = "";
 
             var list = this._Repository.GetAllNodes<CompileItem>("CompileItem", new { AbsolutePath = tree.FilePath });
-            if(list.Count == 0)
+            if (list.Count == 0)
             {
                 // TODO Log
                 //Console.Error.WriteLine("Compile Item could not found!");
@@ -78,17 +78,16 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             var nodeType = node.GetType();
             var analyserType = typeof(IAnalyser<>).MakeGenericType(nodeType);
             var analyser = Container.TryResolve(analyserType);
-            if(analyser != null)
+            if (analyser != null)
             {
                 var method = analyserType.GetMethod("Analyse");
                 method.Invoke(analyser, new object[] { parentId, node, model });
             }
-            else 
+            else
             {
                 if (nodeType != typeof(DelegateDeclarationSyntax) &&
                     nodeType != typeof(EventFieldDeclarationSyntax) &&
-                    nodeType != typeof(IndexerDeclarationSyntax) &&
-                    nodeType != typeof(BlockSyntax))
+                    nodeType != typeof(IndexerDeclarationSyntax))
                 {
 
                 }
@@ -96,51 +95,52 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             }
         }
 
-        public static String FindOrCreateType(ISymbol symbol)
+        public static Nodes.Type FindOrCreateType(ISymbol symbol)
         {
             var namedSymbol = symbol as INamedTypeSymbol;
 
-            if(namedSymbol == null)
+            if (namedSymbol == null)
             {
                 // TODO parse other types. Array ...
                 return null;
             }
 
-            Nodes.Type node = null;
             String nodeType = "";
 
-            if(namedSymbol.TypeKind == TypeKind.Class)
+            if (namedSymbol.TypeKind == TypeKind.Class)
             {
-                node = new Class();
                 nodeType = "Class";
             }
-            else if(namedSymbol.TypeKind == TypeKind.Enum)
+            else if (namedSymbol.TypeKind == TypeKind.Enum)
             {
-                node = new Nodes.Enum();
                 nodeType = "Enum";
             }
-            else if(namedSymbol.TypeKind == TypeKind.Interface)
+            else if (namedSymbol.TypeKind == TypeKind.Interface)
             {
-                node = new Interface();
                 nodeType = "Interface";
             }
-            else if(namedSymbol.TypeKind == TypeKind.Struct)
+            else if (namedSymbol.TypeKind == TypeKind.Struct)
             {
-                node = new Struct();
                 nodeType = "Struct";
             }
             else
             {
-                return null;
+                nodeType = "Type";
             }
 
-            node.Name = symbol.Name;
-            node.Assembly = symbol.ContainingAssembly.Identity.Name;
-            node.NameSpace = symbol.ContainingNamespace.ToString();
+            return FindOrCreateType(symbol.ContainingAssembly.Identity.Name, symbol.ContainingNamespace.ToString(), symbol.Name, nodeType, "Type");
+        }
+
+        public static Nodes.Type FindOrCreateType(String assembly, String nameSpace, String name, params String[] nodeTypes)
+        {
+            var node = new Nodes.Type();
+            node.Assembly = assembly;
+            node.Name = name;
+            node.NameSpace = nameSpace;            
 
             var repository = Container.Resolve<IRepository>();
-            var id = repository.FindIdOrCreate(node, nodeType, new { Name = node.Name, NameSpace = node.NameSpace, Assembly = node.Assembly });
-            return id;
+            node.Id = repository.FindIdOrCreate(node, nodeTypes, new { Name = name, NameSpace = nameSpace, Assembly = assembly });
+            return node;
         }
 
         private void Workspace_WorkspaceFailed(object sender, WorkspaceDiagnosticEventArgs e)

@@ -29,7 +29,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             this._Repository.CreateRelationship(parentId, prm.Id, "EXPECTS");
 
             var symbolInfo = model.GetSymbolInfo(node.Type);
-            var typeId = CodeResolver.FindOrCreateType(symbolInfo.Symbol);
+            var typeId = CodeResolver.FindOrCreateType(symbolInfo.Symbol)?.Id;
             if(String.IsNullOrEmpty(typeId) == false)
             {
                 this._Repository.CreateRelationship(prm.Id, typeId, "TYPEOF");

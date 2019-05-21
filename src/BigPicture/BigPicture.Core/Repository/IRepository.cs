@@ -10,6 +10,8 @@ namespace BigPicture.Core.Repository
 
         void DeleteAll();
 
+        T FindNode<T>(String id) where T : BigPicture.Core.INode;
+
         string CreateRelationship(String from, String to, String relationShip);
 
         string CreateNode(object node, params String[] nodeTypes);
@@ -20,6 +22,10 @@ namespace BigPicture.Core.Repository
 
         List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode;
 
+        String FindIdOrCreateSubNode(object node, String nodeType, String id, String relation, String subNodeType, dynamic filterObject = null);
+
         String FindIdOrCreate(object node, String nodeType, object filterObject);
+
+        String FindIdOrCreate(object node, String[] nodeTypes, object filterObject);
     }
 }

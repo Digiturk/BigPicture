@@ -121,7 +121,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CodeAnalysers\MySyntaxWalker.cs" />
     <Compile Include="CodeAnalysers\IAnalyser.cs" />
+    <Compile Include="CodeAnalysers\Implementations\BlockAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\AttributeAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\AttributeListAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\DestructorDeclarationAnalyser.cs" />
