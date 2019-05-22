@@ -173,3 +173,4 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\M
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll

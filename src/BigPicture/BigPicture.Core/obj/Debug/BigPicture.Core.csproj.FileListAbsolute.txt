@@ -38,3 +38,4 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.C
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csprojAssemblyReference.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Replify.Net.dll

@@ -17,10 +17,10 @@ namespace BigPicture.Repl
             var version = Assembly.GetExecutingAssembly().GetName().Version;
             Console.WriteLine("BigPicture Repl, version " + version);
 
-            Replify.Net.Replify.RegisterCommand<ExitCommand>();
-            Replify.Net.Replify.RegisterCommand<TestCommand>();
-            Replify.Net.Replify.RegisterCommand<StartCommand>();
-            Replify.Net.Replify.RegisterCommand<ResolversCommand>();
+            Replify.Net.Replify.Register<ExitCommand>();
+            Replify.Net.Replify.Register<TestCommand>();
+            Replify.Net.Replify.Register<StartCommand>();
+            Replify.Net.Replify.Register<ResolversCommand>();
 
 
             Replify.Net.Replify.Start();
