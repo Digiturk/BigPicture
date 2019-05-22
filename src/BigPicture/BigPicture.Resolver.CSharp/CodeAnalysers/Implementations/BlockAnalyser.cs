@@ -34,7 +34,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
                 if (memberAccess.Kind == "Method")
                 {
                     var method = new Method();
-                    method.Assemly = typeDef.Assembly;
+                    method.Assembly = typeDef.Assembly;
                     method.NameSpace = typeDef.NameSpace;
                     method.OwnerName = typeDef.Name;
                     method.HasBody = false;
@@ -42,25 +42,43 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
                     memberId = this._Repository.FindIdOrCreate(method, "Method", new
                     {
-                        Assembly = method.Assemly,
+                        Assembly = method.Assembly,
                         NameSpace = method.NameSpace,
                         OwnerName = method.OwnerName,
-                        Name = method.OwnerName
+                        Name = method.Name
                     });
                 }
                 else if (memberAccess.Kind == "Property")
                 {
                     var property = new Property();
+                    property.Assembly = typeDef.Assembly;
+                    property.NameSpace = typeDef.NameSpace;
+                    property.OwnerName = typeDef.Name;
                     property.Name = memberAccess.Name;
 
-                    memberId = this._Repository.FindIdOrCreateSubNode(property, "Type", typeDef.Id, "HAS", "Property", new { Name = memberAccess.Name });
+                    memberId = this._Repository.FindIdOrCreate(property, "Property", new
+                    {
+                        Assembly = property.Assembly,
+                        NameSpace = property.NameSpace,
+                        OwnerName = property.OwnerName,
+                        Name = property.Name
+                    });
                 }
                 else if (memberAccess.Kind == "Field")
                 {
                     var field = new Field();
+                    field.Assembly = typeDef.Assembly;
+                    field.NameSpace = typeDef.NameSpace;
+                    field.OwnerName = typeDef.Name;
                     field.Name = memberAccess.Name;
 
-                    memberId = this._Repository.FindIdOrCreateSubNode(field, "Type", typeDef.Id, "HAS", "Field", new { Name = memberAccess.Name });
+                    memberId = this._Repository.FindIdOrCreate(field, "Field", new
+                    {
+                        Assembly = field.Assembly,
+                        NameSpace = field.NameSpace,
+                        OwnerName = field.OwnerName,
+                        Name = field.Name
+                    });
                 }
                 else if(memberAccess.Kind == "Event")
                 {
@@ -72,7 +90,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
                 if (String.IsNullOrEmpty(memberId) == false)
                 {
-                    this._Repository.CreateRelationship(parentId, memberId, "ACCESS");
+                    this._Repository.CreateRelationship(parentId, memberId, "ACCESS", new {
+                        Code = memberAccess.Code,
+                        ParamNames = memberAccess.ParamNames,
+                        ParamValues = memberAccess.ParamValues,
+                        ParamCodes = memberAccess.ParamCodes
+                    });
                 }
             }
         }

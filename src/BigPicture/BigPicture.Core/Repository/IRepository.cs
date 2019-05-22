@@ -12,7 +12,7 @@ namespace BigPicture.Core.Repository
 
         T FindNode<T>(String id) where T : BigPicture.Core.INode;
 
-        string CreateRelationship(String from, String to, String relationShip);
+        string CreateRelationship(String from, String to, String relationShip, dynamic dataObject = null);
 
         string CreateNode(object node, params String[] nodeTypes);
 

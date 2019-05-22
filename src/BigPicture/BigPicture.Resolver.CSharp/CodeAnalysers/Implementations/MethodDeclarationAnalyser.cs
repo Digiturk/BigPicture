@@ -24,10 +24,9 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
         {
             var owner = this._Repository.FindNode<Nodes.Type>(parentId);
 
-
             var method = new Method();
 
-            method.Assemly = owner.Assembly;
+            method.Assembly = owner.Assembly;
             method.NameSpace = owner.NameSpace;
             method.OwnerName = owner.Name;
             method.Name = node.Identifier.Text;
@@ -36,10 +35,10 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             method.Id = this._Repository.FindIdOrCreate(method, "Method", new
             {
-                Assembly = method.Assemly,
+                Assembly = method.Assembly,
                 NameSpace = method.NameSpace,
                 OwnerName = method.OwnerName,
-                Name = method.OwnerName
+                Name = method.Name
             });
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
 

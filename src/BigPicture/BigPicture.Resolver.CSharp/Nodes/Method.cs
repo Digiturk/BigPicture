@@ -11,7 +11,7 @@ namespace BigPicture.Resolver.CSharp.Nodes
     {
         public String Id { get; set; }
 
-        public String Assemly { get; set; }
+        public String Assembly { get; set; }
         public String NameSpace { get; set; }
         public String OwnerName { get; set; }
         public String Name { get; set; }

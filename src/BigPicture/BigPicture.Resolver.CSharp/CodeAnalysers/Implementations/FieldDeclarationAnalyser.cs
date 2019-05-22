@@ -22,6 +22,8 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
         public void Analyse(string parentId, FieldDeclarationSyntax node, SemanticModel model)
         {
+            var owner = this._Repository.FindNode<Nodes.Type>(parentId);
+
             var typeSyntax = node.Declaration.Type;
             var symbol = model.GetSymbolInfo(typeSyntax);
             var variableSyntax = node.Declaration.Variables[0];
@@ -29,10 +31,20 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             #region Create Field definition
 
             var field = new Field();
+            field.Assembly = owner.Assembly;
+            field.NameSpace = owner.NameSpace;
+            field.OwnerName = owner.Name;
             field.Name = variableSyntax.Identifier.Text;
             field.Modifier = String.Join(", ", node.Modifiers.Select(a => a.Text));
 
             field.Id = this._Repository.CreateNode(field, "Field");
+            field.Id = this._Repository.FindIdOrCreate(field, "Field", new
+            {
+                Assembly = field.Assembly,
+                NameSpace = field.NameSpace,
+                OwnerName = field.OwnerName,
+                Name = field.Name
+            });
             this._Repository.CreateRelationship(parentId, field.Id, "HAS");
 
             #endregion

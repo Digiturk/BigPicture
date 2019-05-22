@@ -50,12 +50,18 @@ namespace BigPicture.Repository.Neo4j
             return default(T);
         }
 
-        public string CreateRelationship(String from, String to, String relationShip)
+        public string CreateRelationship(String from, String to, String relationShip, dynamic dataObject = null)
         {
+            var data = "";
+            if (dataObject != null)
+            {
+                data = ToJson(dataObject);
+            }
+
             var statement = $@"
                 MATCH (s), (n)
                 where ID(s) = {from} and ID(n) = {to}
-                CREATE (s)-[r:{relationShip}]->(n)
+                CREATE (s)-[r:{relationShip} {data}]->(n)
                 return r";
 
             var result = this.Write(statement);

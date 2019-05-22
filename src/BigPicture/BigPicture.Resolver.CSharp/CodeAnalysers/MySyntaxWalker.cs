@@ -69,6 +69,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
             memberAccess.TypeName = symbolInfo.Symbol.OriginalDefinition.ContainingType.Name;
             memberAccess.Name = symbolInfo.Symbol.OriginalDefinition.Name;
             memberAccess.Kind = symbolInfo.Symbol.OriginalDefinition.Kind.ToString();
+            memberAccess.Code = node.ToFullString().Trim();
 
             if(node.Parent.IsKind(SyntaxKind.InvocationExpression))
             {
@@ -89,13 +90,18 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
                         }
 
                         var prmName = prmSymbol?.Name?.ToString();
-
                         var value = this._Model.GetConstantValue(arg.Expression);
 
-                        if (value.HasValue)
+                        memberAccess.ParamNames.Add(prmName);
+                        if(value.HasValue)
                         {
-
+                            memberAccess.ParamValues.Add(value.Value?.ToString()??"<NULL>");
                         }
+                        else
+                        {
+                            memberAccess.ParamValues.Add("<UNKNOWN>");
+                        }
+                        memberAccess.ParamCodes.Add(arg.ToFullString());
                     }
 
                     i++;
@@ -113,12 +119,16 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
         }
     }
 
-    public struct MemberAccess
+    public class MemberAccess
     {
         public String Assembly { get; set; }
         public String NameSpace { get; set; }
         public String TypeName { get; set; }
         public String Name { get; set; }
         public String Kind { get; set; }
+        public String Code { get; set; }
+        public List<String> ParamNames { get; } = new List<String>();
+        public List<String> ParamValues { get; } = new List<String>();
+        public List<String> ParamCodes { get; } = new List<String>();
     }
 }
