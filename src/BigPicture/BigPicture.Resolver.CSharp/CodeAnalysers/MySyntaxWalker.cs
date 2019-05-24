@@ -13,6 +13,8 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
     {
         private SemanticModel _Model { get; set; }
         private List<MemberAccess> _MemberAccessList = new List<MemberAccess>();
+        private Dictionary<string, object> _LocalVariables = new Dictionary<string, object>();
+        private Dictionary<String, object> _LocalVariablesCodes = new Dictionary<string, object>();
 
         public MySyntaxWalker(SemanticModel model)
         {
@@ -54,6 +56,68 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
 
         }
 
+        public override void VisitAssignmentExpression(AssignmentExpressionSyntax node)
+        {
+            var name = (node.Left as IdentifierNameSyntax)?.Identifier.Text;
+
+            if(String.IsNullOrEmpty(name) == false)
+            {
+                var value = this._Model.GetConstantValue(node.Right);
+
+                if (value.HasValue)
+                {
+                    if(this._LocalVariables.ContainsKey(name))
+                    {
+                        this._LocalVariables[name] = value.Value;
+                    }
+                    else
+                    {
+                        this._LocalVariables.Add(name, value.Value);
+                    }
+                }
+                else if(this._LocalVariables.ContainsKey(name))
+                {
+                    this._LocalVariables.Remove(name);
+                }
+            }
+        }
+
+        public override void VisitLocalDeclarationStatement(LocalDeclarationStatementSyntax node)
+        {
+            foreach(var v in node.Declaration.Variables)
+            {
+                var name = v.Identifier.Text;
+                if (v.Initializer != null)
+                {
+                    var val = this._Model.GetConstantValue(v.Initializer.Value);
+
+                    if (val.HasValue)
+                    {
+                        if(this._LocalVariables.ContainsKey(name))
+                        {
+                            this._LocalVariables[name] = val.Value;
+                        }
+                        else
+                        {
+                            this._LocalVariables.Add(name, val.Value);
+                        }
+                    }
+                    else
+                    {
+                        var code = v.Initializer.Value.ToFullString().Trim();
+                        if (this._LocalVariablesCodes.ContainsKey(name))
+                        {
+                            this._LocalVariablesCodes[name] = code;
+                        }
+                        else
+                        {
+                            this._LocalVariablesCodes.Add(name, code);
+                        }
+                    }
+                }
+            }
+        }
+
         public override void VisitMemberAccessExpression(MemberAccessExpressionSyntax node)
         {
             var symbolInfo = this._Model.GetSymbolInfo(node);
@@ -69,7 +133,7 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
             memberAccess.TypeName = symbolInfo.Symbol.OriginalDefinition.ContainingType.Name;
             memberAccess.Name = symbolInfo.Symbol.OriginalDefinition.Name;
             memberAccess.Kind = symbolInfo.Symbol.OriginalDefinition.Kind.ToString();
-            memberAccess.Code = node.ToFullString().Trim();
+            memberAccess.Code = node.Parent.ToFullString().Trim();
 
             if(node.Parent.IsKind(SyntaxKind.InvocationExpression))
             {
@@ -96,6 +160,14 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers
                         if(value.HasValue)
                         {
                             memberAccess.ParamValues.Add(value.Value?.ToString()??"<NULL>");
+                        }
+                        else if (_LocalVariables.ContainsKey(arg.ToFullString()))
+                        {
+                            memberAccess.ParamValues.Add(_LocalVariables[arg.ToFullString()]?.ToString()??"<NULL>");
+                        }
+                        else if(_LocalVariablesCodes.ContainsKey(arg.ToFullString()))
+                        {
+                            memberAccess.ParamValues.Add(_LocalVariablesCodes[arg.ToFullString()]?.ToString() ?? "<NULL>");
                         }
                         else
                         {
