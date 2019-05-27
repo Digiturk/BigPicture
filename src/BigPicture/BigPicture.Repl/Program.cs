@@ -22,7 +22,6 @@ namespace BigPicture.Repl
             Replify.Net.Replify.Register<StartCommand>();
             Replify.Net.Replify.Register<ResolversCommand>();
 
-
             Replify.Net.Replify.Start();
         }
     }
