@@ -1,3 +1,4 @@
 {
-  "Repository": "bolt://localhost:7687"
+  "Repository": "bolt://localhost:7687",
+  "conf": "test"
 }
