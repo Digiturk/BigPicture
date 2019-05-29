@@ -1,3 +1,6 @@
 {
-  "Repository": "bolt://localhost:7687"
+  "Repository": "bolt://localhost:7687",
+  "Options": {
+    "DBS": "Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS = (PROTOCOL = TCP)(HOST = 172.28.4.8)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = MAINTENANCE_TEST) ));user id=DT_TEST;password=DT_TEST;"
+  }
 }

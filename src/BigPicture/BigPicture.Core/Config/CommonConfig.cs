@@ -24,5 +24,7 @@ namespace BigPicture.Core.Config
         }
 
         public String Repository { get; set; }        
+
+        public Dictionary<String, String> Options { get; set; }
     }   
 }

@@ -155,6 +155,10 @@
       <Project>{0af05e37-2547-477a-88a6-60924ccb361e}</Project>
       <Name>BigPicture.Resolver.CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BigPicture.Resolver.Oracle\BigPicture.Resolver.Oracle.csproj">
+      <Project>{98140dfc-d548-4465-9b40-81868d108318}</Project>
+      <Name>BigPicture.Resolver.Oracle</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.2\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />

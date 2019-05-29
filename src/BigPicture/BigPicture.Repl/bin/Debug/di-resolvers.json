@@ -3,13 +3,21 @@
     "RemoveAllOnStart":  true
   },
   "StartData": [
+    //{
+    //  "NodeTypeName": "Solution",
+    //  "Data": {
+    //    "Path": "D:\\dtl1tfs1\\CSI\\Prod-OrderPlay\\CSI\\Digiturk.CSI.sln",
+    //    "Name": "Digiturk.CSI"
+    //  }
+    //},
     {
-      "NodeTypeName": "Solution",
+      "NodeTypeName": "Database",
       "Data": {
-        "Path": "D:\\dtl1tfs1\\CSI\\Prod-OrderPlay\\CSI\\Digiturk.CSI.sln",
-        "Name": "Digiturk.CSI"
+        "Name": "DBS",
+        "Type": "Oracle",
+        "DoNotParse": [ "SYS", "SYSTEM", "OPER", "OJVMSYS", "XDB", "PUBLIC" ]
       }
-    }    
+    }
   ],
   "Resolvers": [
     {
@@ -32,6 +40,34 @@
       "RunParallel": false,
       "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
       "Resolver": "BigPicture.Resolver.CSharp.Resolvers.CodeResolver, BigPicture.Resolver.CSharp"
+    },
+    {
+      "Name": "Database",
+      "Resolves": "Database",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Database, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DatabaseResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Schema",
+      "Resolves": "Schema",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Schema, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.SchemaResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Dependency",
+      "Resolves": "DbObject",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DependencyResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Table",
+      "Resolves": "Table",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.TableResolver, BigPicture.Resolver.Oracle"
     }
   ]
 }

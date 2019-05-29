@@ -183,3 +183,7 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\zh-Hans\Micr
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\Microsoft.Build.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\Microsoft.Build.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Resolver.Oracle.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Resolver.Oracle.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Resolver.Oracle.dll.config
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\Oracle.ManagedDataAccess.dll

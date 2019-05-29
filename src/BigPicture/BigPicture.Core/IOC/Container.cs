@@ -39,7 +39,7 @@ namespace BigPicture.Core.IOC
                 builder
                     .RegisterType(resolverType)
                     .Keyed(resolverDefiniton.Name, typeof(IResolver<>).MakeGenericType(nodeType))
-                    .As(typeof(IResolver<>).MakeGenericType(nodeType))                    
+                    .As(typeof(IResolver<>).MakeGenericType(nodeType))
                     .InstancePerDependency();
             }
         }

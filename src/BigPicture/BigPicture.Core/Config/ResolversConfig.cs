@@ -38,6 +38,7 @@ namespace BigPicture.Core.Config
         public String Name { get; set; }
         public String Resolves { get; set; }
         public bool RunParallel { get; set; }
+        public Int32? MaxParallel { get; set; }
         public String NodeType { get; set; }
         public String Resolver { get; set; }
     }
