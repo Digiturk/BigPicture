@@ -80,7 +80,7 @@ namespace BigPicture.Core.Resolver
                     
                     if(resolverDefinition.RunParallel)
                     {
-                        Parallel.ForEach<INode>(nodes, new ParallelOptions() { MaxDegreeOfParallelism = resolverDefinition.MaxParallel??20 }, (INode node) =>
+                        Parallel.ForEach<INode>(nodes, new ParallelOptions() { MaxDegreeOfParallelism = resolverDefinition.MaxParallel??10 }, (INode node) =>
                         {
                             resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
                             progressCount++;

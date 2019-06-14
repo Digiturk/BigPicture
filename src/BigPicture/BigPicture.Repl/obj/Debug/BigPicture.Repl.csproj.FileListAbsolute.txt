@@ -187,3 +187,6 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.R
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Resolver.Oracle.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Resolver.Oracle.dll.config
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\Oracle.ManagedDataAccess.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Repl.Commands.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Repl.Commands.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl\bin\Debug\BigPicture.Repl.Commands.dll.config

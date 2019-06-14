@@ -1,7 +1,6 @@
 ﻿using BigPicture.Core.Repository;
 using BigPicture.Core.Resolver;
 using BigPicture.Core.IOC;
-using BigPicture.Resolver.CSharp.Nodes;
 using Replify.Net;
 using System;
 using System.Collections.Generic;

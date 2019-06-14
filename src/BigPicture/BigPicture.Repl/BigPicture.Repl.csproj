@@ -123,9 +123,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Commands\ResolversCommand.cs" />
-    <Compile Include="Commands\StartCommand.cs" />
-    <Compile Include="Commands\TestCommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -146,6 +143,10 @@
     <ProjectReference Include="..\BigPicture.Core\BigPicture.Core.csproj">
       <Project>{73412c4b-1b0e-4421-b0db-578aeb27ef92}</Project>
       <Name>BigPicture.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BigPicture.Repl.Commands\BigPicture.Repl.Commands.csproj">
+      <Project>{55c3611a-a4d3-4b4b-853a-1cfe604d1466}</Project>
+      <Name>BigPicture.Repl.Commands</Name>
     </ProjectReference>
     <ProjectReference Include="..\BigPicture.Repository.Neo4j\BigPicture.Repository.Neo4j.csproj">
       <Project>{556f6887-7179-463c-b22e-44863ea54e16}</Project>
