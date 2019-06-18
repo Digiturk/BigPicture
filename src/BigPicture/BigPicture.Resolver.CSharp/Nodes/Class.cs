@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    class Class : Nodes.Type
+    public class Class : Nodes.Type
     {
         public bool IsAbstract { get; set; }
         public bool IsSealed { get; set; }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    class Interface : Nodes.Type
+    public class Interface : Nodes.Type
     {
     }
 }

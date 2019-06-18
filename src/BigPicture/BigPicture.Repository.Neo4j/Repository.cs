@@ -223,5 +223,12 @@ namespace BigPicture.Repository.Neo4j
                 }
             }
         }
+
+        public List<IObject> RunCustomQuery(string query)
+        {
+            var statementResult = this.Read(query);
+
+            return null;
+        }
     }
 }

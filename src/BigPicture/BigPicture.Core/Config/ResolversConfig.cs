@@ -41,6 +41,7 @@ namespace BigPicture.Core.Config
         public Int32? MaxParallel { get; set; }
         public String NodeType { get; set; }
         public String Resolver { get; set; }
+        public String CustomQuery { get; set; }
     }
 
     public class StartData

@@ -141,6 +141,8 @@
     <Compile Include="CodeAnalysers\Implementations\NamespaceDeclarationAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\BaseListAnalyser.cs" />
     <Compile Include="CodeAnalysers\Implementations\UsingDirectiveAnalyser.cs" />
+    <Compile Include="CodeToDatabaseResolvers\DbCallBlock.cs" />
+    <Compile Include="CodeToDatabaseResolvers\ExecuteNonQueryResolver.cs" />
     <Compile Include="Nodes\Destructor.cs" />
     <Compile Include="Nodes\EnumMember.cs" />
     <Compile Include="Nodes\Constructor.cs" />

@@ -95,7 +95,9 @@
   <ItemGroup>
     <Compile Include="Config\CommonConfig.cs" />
     <Compile Include="Config\ResolversConfig.cs" />
+    <Compile Include="IRelation.cs" />
     <Compile Include="INode.cs" />
+    <Compile Include="IObject.cs" />
     <Compile Include="IOC\Container.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\IRepository.cs" />

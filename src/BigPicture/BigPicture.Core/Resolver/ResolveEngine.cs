@@ -4,11 +4,13 @@ using BigPicture.Core.IOC;
 using BigPicture.Core.Repository;
 using Replify.Net.Util;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace BigPicture.Core.Resolver
 {
@@ -61,30 +63,35 @@ namespace BigPicture.Core.Resolver
 
         public void Resolve(ResolverDefinition resolverDefinition)
         {
-            
             Console.WriteLine($"Starting {resolverDefinition.Name} resolver...");
             var sw = Stopwatch.StartNew();
 
             try
             {
                 var type = Type.GetType(resolverDefinition.NodeType);
-                var nodes = this.Repository.GetAllNodes(resolverDefinition.Resolves, type);                
 
+                IEnumerable<Object> nodes = null;
+                if(String.IsNullOrEmpty(resolverDefinition.CustomQuery))
+                {
+                    nodes = this.Repository.GetAllNodes(resolverDefinition.Resolves, type).OfType<Object>();
+                }
+                
                 var resolverType = typeof(IResolver<>).MakeGenericType(type);
                 var resolver = Container.ResolveWithKey(resolverDefinition.Name, resolverType);
 
                 using (var progress = new ConsoleProgress())
                 {
                     var progressCount = 0d;
+                    var totalCount = nodes.Count();
                     progress.Report(progressCount);
                     
                     if(resolverDefinition.RunParallel)
                     {
-                        Parallel.ForEach<INode>(nodes, new ParallelOptions() { MaxDegreeOfParallelism = resolverDefinition.MaxParallel??10 }, (INode node) =>
+                        Parallel.ForEach(nodes, new ParallelOptions() { MaxDegreeOfParallelism = resolverDefinition.MaxParallel??10 }, (object node) =>
                         {
                             resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
                             progressCount++;
-                            progress.Report(progressCount / nodes.Count);
+                            progress.Report(progressCount / totalCount);
                         });
                     }
                     else
@@ -93,7 +100,7 @@ namespace BigPicture.Core.Resolver
                         {
                             resolverType.GetMethod("Resolve").Invoke(resolver, new object[] { node });
                             progressCount++;
-                            progress.Report(progressCount / nodes.Count);
+                            progress.Report(progressCount / totalCount);
                         }
                     }
                 }
@@ -102,7 +109,6 @@ namespace BigPicture.Core.Resolver
             {
                 Console.Error.WriteLine($"{resolverDefinition.Name} error: {ex.Message}");
             }
-
 
             sw.Stop();
             Console.WriteLine($"Finished {resolverDefinition.Name} resolver: {sw.ElapsedMilliseconds}ms");

@@ -68,6 +68,14 @@
       "RunParallel": true,
       "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
       "Resolver": "BigPicture.Resolver.Oracle.Resolvers.TableResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "CodeToDatabaseResolver",
+      "Resolves": "DbCallBlock",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.CSharp.DbCallBlock, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.ExecuteNonQueryResolver, BigPicture.Resolver.CSharp",
+      "CustomQuery": "match(m)-[r:ACCESS]->(d {Name: 'ExecuteNonQuery'})\twhere not (r.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT r.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn m, r, d"
     }
   ]
 }

@@ -4,8 +4,8 @@ using System.Text;
 
 namespace BigPicture.Core
 {
-    public interface INode : IObject
+    public interface IRelation : IObject
     {
-        String Id { get; set; }
+        String Name { get; set; }
     }
 }

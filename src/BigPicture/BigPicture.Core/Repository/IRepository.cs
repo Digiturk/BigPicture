@@ -27,5 +27,7 @@ namespace BigPicture.Core.Repository
         String FindIdOrCreate(object node, String nodeType, object filterObject);
 
         String FindIdOrCreate(object node, String[] nodeTypes, object filterObject);
+
+        List<IObject> RunCustomQuery(String query);
     }
 }
