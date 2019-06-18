@@ -75,6 +75,10 @@ namespace BigPicture.Core.Resolver
                 {
                     nodes = this.Repository.GetAllNodes(resolverDefinition.Resolves, type).OfType<Object>();
                 }
+                else
+                {
+                    nodes = this.Repository.RunCustomQuery(resolverDefinition.CustomQuery);
+                }
                 
                 var resolverType = typeof(IResolver<>).MakeGenericType(type);
                 var resolver = Container.ResolveWithKey(resolverDefinition.Name, resolverType);
