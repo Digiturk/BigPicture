@@ -75,7 +75,7 @@
       "RunParallel": true,
       "NodeType": "BigPicture.Resolver.CSharp.DbCallBlock, BigPicture.Resolver.CSharp",
       "Resolver": "BigPicture.Resolver.CSharp.ExecuteNonQueryResolver, BigPicture.Resolver.CSharp",
-      "CustomQuery": "match(m)-[r:ACCESS]->(d {Name: 'ExecuteNonQuery'})\twhere not (r.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT r.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn m, r, d"
+      "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {Name: 'ExecuteNonQuery'})\twhere not (Calls.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT Calls.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn Code, Calls, DbObject"
     }
   ]
 }

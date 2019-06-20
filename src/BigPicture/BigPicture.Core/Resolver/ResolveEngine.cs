@@ -77,7 +77,7 @@ namespace BigPicture.Core.Resolver
                 }
                 else
                 {
-                    nodes = this.Repository.RunCustomQuery(resolverDefinition.CustomQuery);
+                    nodes = this.Repository.RunCustomQuery(resolverDefinition.CustomQuery, type);
                 }
                 
                 var resolverType = typeof(IResolver<>).MakeGenericType(type);

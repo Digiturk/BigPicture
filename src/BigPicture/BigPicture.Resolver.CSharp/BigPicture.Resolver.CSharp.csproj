@@ -162,6 +162,7 @@
     <Compile Include="Nodes\Project.cs" />
     <Compile Include="Nodes\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relations\Access.cs" />
     <Compile Include="Resolvers\CodeResolver.cs" />
     <Compile Include="Resolvers\ProjectResolver.cs" />
     <Compile Include="Resolvers\SolutionResolver.cs" />

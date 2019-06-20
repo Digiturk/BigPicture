@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BigPicture.Core.Resolver
 {
-    public interface IResolver<T> where T : IObject
+    public interface IResolver<T> where T : IEntity
     {
         void Resolve(T obj);
     }

@@ -3,6 +3,7 @@ using BigPicture.Core.Config;
 using BigPicture.Core.Repository;
 using Neo4j.Driver.V1;
 using NeoINode = Neo4j.Driver.V1.INode;
+using NeoIEntity = Neo4j.Driver.V1.IEntity;
 using Newtonsoft.Json;
 using System;
 using System.Linq;
@@ -46,6 +47,26 @@ namespace BigPicture.Repository.Neo4j
                 return (T) resultList[0];
             }
 
+
+            return default(T);
+        }
+
+        public T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.INode
+        {
+            var filter = "";
+            if (filterObject != null)
+            {
+                filter = ToJson(filterObject);
+            }
+
+            var nodeType = String.Join(":", nodeTypes);
+            var result = this.Read($"MATCH (a:{nodeType} {filter}) RETURN a");
+
+            var resultList = result.Select(a => this.ToNode(a, typeof(T))).ToList();
+            if (resultList.Count > 0)
+            {
+                return (T)resultList[0];
+            }            
 
             return default(T);
         }
@@ -104,7 +125,7 @@ namespace BigPicture.Repository.Neo4j
 
             var result = this.Read($"MATCH (a:{nodeType} {filter}) RETURN a");
 
-            var resultList = result.Select(a => this.ToNode(a, type)).ToList();            
+            var resultList = result.Select(a => this.ToNode(a, type) as Core.INode).ToList();
             return resultList;
         }
 
@@ -198,11 +219,16 @@ namespace BigPicture.Repository.Neo4j
             return stringWriter.ToString();
         }
 
-        private Core.INode ToNode(IRecord record, Type type)
+        private Core.IEntity ToNode(IRecord record, Type type)
         {
-            var nodeProps = JsonConvert.SerializeObject(record[0].As<NeoINode>().Properties);
-            var node = (BigPicture.Core.INode)JsonConvert.DeserializeObject(nodeProps, type);
-            node.Id = record[0].As<NeoINode>().Id.ToString();
+            return this.ToNode(record[0].As<NeoINode>(), type);
+        }
+
+        private Core.IEntity ToNode(NeoIEntity neoEntity, Type type)
+        {
+            var nodeProps = JsonConvert.SerializeObject(neoEntity.Properties);
+            var node = (BigPicture.Core.IEntity)JsonConvert.DeserializeObject(nodeProps, type);
+            node.Id = neoEntity.Id.ToString();
 
             return node;
         }
@@ -224,11 +250,36 @@ namespace BigPicture.Repository.Neo4j
             }
         }
 
-        public List<IObject> RunCustomQuery(string query)
+        public List<Core.IEntity> RunCustomQuery(string query, Type type)
         {
             var statementResult = this.Read(query);
 
-            return null;
+            var result = new List<Core.IEntity>();
+
+            foreach(var item in statementResult)
+            {
+                var obj = Activator.CreateInstance(type);
+                var props = type.GetProperties().ToList();
+                
+                foreach(var key in item.Keys)
+                {
+                    var prop = props.Find(p => p.Name == key);
+                    if(prop != null)
+                    {
+                        var value = item.Values[key];
+
+                        if(value is NeoIEntity)
+                        {
+                            var entity = this.ToNode(value as NeoIEntity, prop.PropertyType);
+                            prop.SetValue(obj, entity);
+                        }                        
+                    }
+                }
+
+                result.Add(obj as Core.IEntity);
+            }
+
+            return result;
         }
     }
 }

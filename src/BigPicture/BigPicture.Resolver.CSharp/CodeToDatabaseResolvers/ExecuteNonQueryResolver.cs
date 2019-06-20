@@ -11,8 +11,8 @@ namespace BigPicture.Resolver.CSharp
     public class ExecuteNonQueryResolver : IResolver<DbCallBlock>
     {
         public void Resolve(DbCallBlock obj)
-        {            
-            throw new NotImplementedException();
+        {
+            Console.WriteLine($"{obj.Code.Name} calls {obj.DbObject.Name}");
         }
     }
 }

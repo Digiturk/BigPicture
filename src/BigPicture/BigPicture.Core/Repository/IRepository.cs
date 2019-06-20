@@ -12,6 +12,8 @@ namespace BigPicture.Core.Repository
 
         T FindNode<T>(String id) where T : BigPicture.Core.INode;
 
+        T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.INode;
+
         string CreateRelationship(String from, String to, String relationShip, dynamic dataObject = null);
 
         string CreateNode(object node, params String[] nodeTypes);
@@ -28,6 +30,6 @@ namespace BigPicture.Core.Repository
 
         String FindIdOrCreate(object node, String[] nodeTypes, object filterObject);
 
-        List<IObject> RunCustomQuery(String query);
+        List<IEntity> RunCustomQuery(String query, Type type);
     }
 }

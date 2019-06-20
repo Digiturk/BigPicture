@@ -8,9 +8,12 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp
 {
-    public class DbCallBlock : IObject
+    public class DbCallBlock : IEntity
     {
+        public String Id { get; set; }
+
         public Method Code { get; set; }
-        public Method DbObject { get; set; }
+        public Access Calls { get; set; }
+        public Method DbObject { get; set; }        
     }
 }

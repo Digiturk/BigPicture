@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Core
 {
-    public interface IObject
+    public interface IEntity
     {
+        String Id { get; set; }
     }
 }
