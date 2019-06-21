@@ -47,7 +47,6 @@ namespace BigPicture.Repository.Neo4j
                 return (T) resultList[0];
             }
 
-
             return default(T);
         }
 
