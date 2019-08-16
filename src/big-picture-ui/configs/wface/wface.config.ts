@@ -5,10 +5,16 @@ import { ObjectBrowser } from '../../src/screens/object-browser';
 import { WTheme } from '@wface/components';
 
 const theme = {
+  palette: {
+    primary: { main: '#388e3c'},
+  },
+  designDetails: {
+    pagePadding: 10
+  }
 } as WTheme
 
 const config = {
-  projectName: 'WFace',
+  projectName: 'BigPicture',
   screenList: {
     ObjectBrowser,    
   },    
