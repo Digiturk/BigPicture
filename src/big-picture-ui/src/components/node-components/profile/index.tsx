@@ -6,18 +6,19 @@ import { WTheme } from '@wface/components';
 import classNames from 'classnames';
 import Node from '../../../model/base/node';
 import { getNodeImplementation } from '../../../model/base';
+import NavigationItem from '../../../model/components/base/navigation-item';
 
 
-interface ProfileState {
-  isNodeLoading: boolean;
+interface ProfileState {  
   navSelectedIndex: number;
-  node: Node;
+  navItems: NavigationItem[];    
 }
 
 export interface ProfileProps extends WFace.BaseScreenProps {
   classes?: any;
   node: Node;
-  onNavigationChanged: (component: React.ReactType<{node?: Node}>) => void;
+  onNavigationChanged: (component: React.ReactType<{ node?: Node }>) => void;
+  isLoading: boolean;
 }
 
 class ProfileInner extends React.Component<ProfileProps, ProfileState> {
@@ -25,35 +26,18 @@ class ProfileInner extends React.Component<ProfileProps, ProfileState> {
     super(props);
 
     this.state = {
-      isNodeLoading: false,
-      navSelectedIndex: 0,
-      node: null,
+      navItems: this.props.node.getNavigationItems(),
+      navSelectedIndex: 0,      
     }
-  }
-
-  componentDidMount() {
-    this.loadNode();
   }
 
   componentDidUpdate(prevProps: ProfileProps, prevState, snapshot) {
-    if (prevProps.node.id !== this.props.node.id) {
-      this.loadNode();
+    if (prevProps.node !== this.props.node) {
+      this.setState({
+        navItems: this.props.node.getNavigationItems(),
+        navSelectedIndex: 0
+      }, () => this.props.onNavigationChanged(this.state.navItems[0].component))
     }
-  }
-
-  loadNode = () => {
-    this.setState({ isNodeLoading: true }, () => {
-      this.props.httpService.get('Node/' + this.props.node.id)
-        .then(node => { 
-          const implementation = getNodeImplementation(node);
-          this.setState({ node: implementation }, () => this.props.onNavigationChanged(() => <div>initial component</div>));
-        })
-        .catch(error => {
-          this.props.showSnackbar("Node data could not be loaded");
-          console.error(error);
-        })
-        .finally(() => this.setState({ isNodeLoading: false }));
-    });
   }
 
   private renderIcon = () => {
@@ -72,7 +56,7 @@ class ProfileInner extends React.Component<ProfileProps, ProfileState> {
 
     return (
       <div className={classes.labelsContainer}>
-        {this.props.node.labels.map(label => (
+        {this.props.node.Labels.map(label => (
           <WFace.WTypography variant="caption" className={classes.label}>
             {label}
           </WFace.WTypography>
@@ -84,20 +68,7 @@ class ProfileInner extends React.Component<ProfileProps, ProfileState> {
   private renderNav = () => {
     const { classes } = this.props;
 
-    const items = [
-      {
-        icon: 'layers',
-        text: 'General Information',
-        component: () => <div>General Information</div>
-      },
-      {
-        icon: 'device_hub',
-        text: 'Graph',
-        component: () => <div>Graph</div>
-      }
-    ];
-
-    if (this.state.isNodeLoading) {
+    if (this.props.isLoading) {
       var skeleton = (
         <div style={{ display: 'flex' }}>
           <WFace.WSkeleton height={36} width={36} style={{ margin: 5 }} />
@@ -115,7 +86,7 @@ class ProfileInner extends React.Component<ProfileProps, ProfileState> {
     else {
       return (
         <WFace.WList id="node-navigator" className={classes.navList}>
-          {items.map((item, index) => (
+          {this.state.navItems.map((item, index) => (
             <WFace.WListItem
               className={classNames(classes.navListItem, { [classes.navListItemSelected]: index === this.state.navSelectedIndex })}
               selected={index === this.state.navSelectedIndex}
@@ -142,7 +113,7 @@ class ProfileInner extends React.Component<ProfileProps, ProfileState> {
       <WFace.WCard>
         <WFace.WCardContent>
           {this.renderIcon()}
-          <WFace.WTypography align="center" variant="h6" className={classes.title}>{this.props.node.name}</WFace.WTypography>
+          <WFace.WTypography align="center" variant="h6" className={classes.title}>{this.props.node.Name}</WFace.WTypography>
           {this.renderLabels()}
           {this.renderNav()}
         </WFace.WCardContent>

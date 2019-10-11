@@ -21,7 +21,7 @@ namespace BigPicture.Api.Controllers
         }
 
         [HttpGet("{id}")]
-        public ActionResult<Node> Get(String id)
+        public ActionResult<dynamic> Get(String id)
         {
             var result = _Repository.GetNodeById(id);
             return Ok(result);

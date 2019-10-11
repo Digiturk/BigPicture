@@ -31,11 +31,11 @@ export default class NodeSearchProvider implements ISearchProvider {
   renderSearchItem(node: Node): React.ReactNode {
     const implementation = getNodeImplementation(node);
     return (
-      <WFace.WListItem id={"search-item-" + node.id} dense key={"key-search-item-" + node.id}>
+      <WFace.WListItem id={"search-item-" + node.Id} dense key={"key-search-item-" + node.Id}>
         <WFace.WListItemIcon>
           {implementation.getIcon()}
         </WFace.WListItemIcon>
-        <WFace.WListItemText primary={node.name} secondary={node.labels.join(', ')} />
+        <WFace.WListItemText primary={node.Name} secondary={node.Labels.join(', ')} />
       </WFace.WListItem>
     );
   }

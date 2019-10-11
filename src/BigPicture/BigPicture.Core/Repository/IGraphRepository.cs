@@ -8,7 +8,8 @@ namespace BigPicture.Core.Repository
 {
     public interface IGraphRepository
     {
-        Node GetNodeById(String id);
+        object GetNodeById(String id);
+        T GetNodeById<T>(String id) where T : Node;
         IEnumerable<Node> FindNodesByName(String name, int limit = 5, int skip = 0);
     }
 }

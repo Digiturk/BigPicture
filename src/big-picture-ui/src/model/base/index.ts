@@ -9,67 +9,67 @@ export const getNodeImplementation = (node: Node): Node => {
 
   let result: Node;
 
-  if (node.labels.includes("Assembly")) {
+  if (node.Labels.includes("Assembly")) {
     result = new CSharp.Assembly();
   }
-  else if (node.labels.includes("Accessor")) {
+  else if (node.Labels.includes("Accessor")) {
     result = new CSharp.Accessor();        
   }
-  else if (node.labels.includes("Class")) {
+  else if (node.Labels.includes("Class")) {
     result = new CSharp.Class();            
   }
-  else if (node.labels.includes("CompileItem")) {
+  else if (node.Labels.includes("CompileItem")) {
     result = new CSharp.CompileItem();        
   }  
-  else if (node.labels.includes("Constructor")) {
+  else if (node.Labels.includes("Constructor")) {
     result = new CSharp.Constructor();        
   }
-  else if (node.labels.includes("Destructor")) {
+  else if (node.Labels.includes("Destructor")) {
     result = new CSharp.Destructor();        
   }
-  else if (node.labels.includes("EnumMember")) {
+  else if (node.Labels.includes("EnumMember")) {
     result = new CSharp.EnumMember();        
   }
-  else if (node.labels.includes("Enum")) {
+  else if (node.Labels.includes("Enum")) {
     result = new CSharp.Enum();        
   }
-  else if (node.labels.includes("Field")) {
+  else if (node.Labels.includes("Field")) {
     result = new CSharp.Field();        
   }
-  else if (node.labels.includes("Interface")) {
+  else if (node.Labels.includes("Interface")) {
     result = new CSharp.Interface();        
   }
-  else if (node.labels.includes("Method")) {
+  else if (node.Labels.includes("Method")) {
     result = new CSharp.Method();        
   }
-  else if (node.labels.includes("NameSpace")) {
+  else if (node.Labels.includes("NameSpace")) {
     result = new CSharp.NameSpace();        
   }
-  else if (node.labels.includes("Parameter")) {
+  else if (node.Labels.includes("Parameter")) {
     result = new CSharp.Parameter();        
   }
-  else if (node.labels.includes("Project")) {
+  else if (node.Labels.includes("Project")) {
     result = new CSharp.Project();        
   }
-  else if (node.labels.includes("Property")) {
+  else if (node.Labels.includes("Property")) {
     result = new CSharp.Property();        
   }
-  else if (node.labels.includes("Solution")) {
+  else if (node.Labels.includes("Solution")) {
     result = new CSharp.Solution();        
   }
-  else if (node.labels.includes("Struct")) {
+  else if (node.Labels.includes("Struct")) {
     result = new CSharp.Struct();        
   }
-  else if (node.labels.includes("Column")) {
+  else if (node.Labels.includes("Column")) {
     result = new Oracle.Column();        
   }
-  else if (node.labels.includes("Database")) {
+  else if (node.Labels.includes("Database")) {
     result = new Oracle.Database();        
   }
-  else if (node.labels.includes("DbObject")) {
+  else if (node.Labels.includes("DbObject")) {
     result = new Oracle.DbObject();        
   }
-  else if (node.labels.includes("Schema")) {
+  else if (node.Labels.includes("Schema")) {
     result = new Oracle.Schema();        
   }
   else {

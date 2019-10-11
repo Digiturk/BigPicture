@@ -14,14 +14,34 @@ namespace BigPicture.Repository.Neo4j
     public class GraphRepository : IGraphRepository, IDisposable
     {
         private const String NODE_BASE_QUERY = "{ Name: node.Name, Labels: labels(node), Id: id(node)}";
+        private const String NODE_FULL_QUERY = "{ .*, Labels: labels(node), Id: id(node)}";
         private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.Repository);
 
-        public Node GetNodeById(String id)
+        public object GetNodeById(String id)
         {
             var query = $@"
                 match(node)
                 where ID(node) = {id}
-                return node {NODE_BASE_QUERY}";
+                return node {NODE_FULL_QUERY}";
+
+            var queryResult = this.Read(query);
+            var record = queryResult.FirstOrDefault();
+            if (record == null)
+            {
+                return null;
+            }
+
+            var properties = record[0].As<Dictionary<String, object>>();
+            return ToNode<dynamic>(properties);
+        }
+
+
+        public T GetNodeById<T>(String id) where T : Node
+        {
+            var query = $@"
+                match(node)
+                where ID(node) = {id}
+                return node {NODE_FULL_QUERY}";
 
             var queryResult = this.Read(query);
             var record = queryResult.FirstOrDefault();
@@ -31,7 +51,7 @@ namespace BigPicture.Repository.Neo4j
             }
             
             var properties = record[0].As<Dictionary<String, object>>();
-            return ToNode<Node>(properties);
+            return ToNode<T>(properties);
         }
 
         public IEnumerable<Node> FindNodesByName(String name, int limit = 5, int skip = 0)
