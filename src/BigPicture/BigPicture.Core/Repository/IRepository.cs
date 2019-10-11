@@ -10,19 +10,19 @@ namespace BigPicture.Core.Repository
 
         void DeleteAll();
 
-        T FindNode<T>(String id) where T : BigPicture.Core.INode;
+        T FindNode<T>(String id) where T : BigPicture.Core.Node;
 
-        T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.INode;
+        T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.Node;
 
         string CreateRelationship(String from, String to, String relationShip, dynamic dataObject = null);
 
         string CreateNode(object node, params String[] nodeTypes);
 
-        void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.INode;
+        void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.Node;
 
-        List<INode> GetAllNodes(String nodeType, Type type, object filterObject = null);
+        List<Node> GetAllNodes(String nodeType, Type type, object filterObject = null);
 
-        List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode;
+        List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.Node;
 
         String FindIdOrCreateSubNode(object node, String nodeType, String id, String relation, String subNodeType, dynamic filterObject = null);
 
@@ -30,6 +30,6 @@ namespace BigPicture.Core.Repository
 
         String FindIdOrCreate(object node, String[] nodeTypes, object filterObject);
 
-        List<IEntity> RunCustomQuery(String query, Type type);
+        List<Entity> RunCustomQuery(String query, Type type);
     }
 }

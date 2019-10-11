@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class Project : INode
+    public class Project : Node
     {
         public String Id { get; set; }
         public String AbsolutePath { get; set; }

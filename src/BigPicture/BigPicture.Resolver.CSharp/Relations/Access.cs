@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class Access : IRelation
+    public class Access : Relation
     {
         public String Id { get; set; }
         public string Name { get { return "ACCESS"; } }

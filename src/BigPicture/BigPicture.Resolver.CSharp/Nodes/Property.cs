@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class Property : INode
+    public class Property : Node
     {
         public String Id { get; set; }
 

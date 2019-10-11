@@ -95,11 +95,12 @@
   <ItemGroup>
     <Compile Include="Config\CommonConfig.cs" />
     <Compile Include="Config\ResolversConfig.cs" />
-    <Compile Include="IRelation.cs" />
-    <Compile Include="INode.cs" />
-    <Compile Include="IEntity.cs" />
+    <Compile Include="Relation.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="Entity.cs" />
     <Compile Include="IOC\Container.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\IGraphRepository.cs" />
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Resolver\IResolveEngine.cs" />
     <Compile Include="Resolver\IResolver.cs" />

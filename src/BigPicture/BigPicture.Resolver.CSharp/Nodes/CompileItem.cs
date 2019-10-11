@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class CompileItem : INode
+    public class CompileItem : Node
     {
         public String Id { get; set; }
 

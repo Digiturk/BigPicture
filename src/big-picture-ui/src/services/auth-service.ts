@@ -28,8 +28,8 @@ export default class AuthService implements IAuthService {
       let id = 0;
       result.push({
         id: (++id).toString(),
-        text: 'Object Browser',
-        screen: 'ObjectBrowser'        
+        text: 'Node Browser',
+        screen: 'NodeBrowser'        
       });    
       resolve(result);
     });

@@ -37,7 +37,7 @@ namespace BigPicture.Repository.Neo4j
             this.Write(statement);
         }
 
-        public T FindNode<T>(String id) where T : BigPicture.Core.INode
+        public T FindNode<T>(String id) where T : BigPicture.Core.Node
         {
             var result = this.Read($"MATCH (a) WHERE Id(a) = {id} RETURN a");
 
@@ -50,7 +50,7 @@ namespace BigPicture.Repository.Neo4j
             return default(T);
         }
 
-        public T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.INode
+        public T FindNode<T>(object filterObject, params String[] nodeTypes) where T : BigPicture.Core.Node
         {
             var filter = "";
             if (filterObject != null)
@@ -99,7 +99,7 @@ namespace BigPicture.Repository.Neo4j
             return result.Peek()[0].ToString();
         }
 
-        public void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.INode
+        public void UpdateNode<T>(T node, params String[] nodeTypes) where T : BigPicture.Core.Node
         {
             var nodeType = String.Join("", nodeTypes.Select(a => ":" + a));
             var typeAssign = "";
@@ -114,7 +114,7 @@ namespace BigPicture.Repository.Neo4j
             var result = this.Write(statement);
         }
         
-        public List<BigPicture.Core.INode> GetAllNodes(String nodeType, Type type, dynamic filterObject = null)
+        public List<BigPicture.Core.Node> GetAllNodes(String nodeType, Type type, dynamic filterObject = null)
         {
             var filter = "";
             if (filterObject != null)
@@ -124,7 +124,7 @@ namespace BigPicture.Repository.Neo4j
 
             var result = this.Read($"MATCH (a:{nodeType} {filter}) RETURN a");
 
-            var resultList = result.Select(a => this.ToNode(a, type) as Core.INode).ToList();
+            var resultList = result.Select(a => this.ToNode(a, type) as Core.Node).ToList();
             return resultList;
         }
 
@@ -149,9 +149,9 @@ namespace BigPicture.Repository.Neo4j
             return subNodeId;            
         }
 
-        public List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.INode
+        public List<T> GetAllNodes<T>(String nodeType, object filterObject = null) where T : BigPicture.Core.Node
         {
-            List<BigPicture.Core.INode> result = this.GetAllNodes(nodeType, typeof(T), filterObject);
+            List<BigPicture.Core.Node> result = this.GetAllNodes(nodeType, typeof(T), filterObject);
             return result.Cast<T>().ToList();
         }
 
@@ -218,16 +218,18 @@ namespace BigPicture.Repository.Neo4j
             return stringWriter.ToString();
         }
 
-        private Core.IEntity ToNode(IRecord record, Type type)
+        private Core.Entity ToNode(IRecord record, Type type)
         {
             return this.ToNode(record[0].As<NeoINode>(), type);
         }
 
-        private Core.IEntity ToNode(NeoIEntity neoEntity, Type type)
+        private Core.Entity ToNode(NeoIEntity neoEntity, Type type)
         {
-            var nodeProps = JsonConvert.SerializeObject(neoEntity.Properties);
-            var node = (BigPicture.Core.IEntity)JsonConvert.DeserializeObject(nodeProps, type);
+            var nodeProps = JsonConvert.SerializeObject(neoEntity.Properties);            
+            var node = (BigPicture.Core.Entity)JsonConvert.DeserializeObject(nodeProps, type);            
             node.Id = neoEntity.Id.ToString();
+
+            var x = JsonConvert.DeserializeObject(nodeProps);
 
             return node;
         }
@@ -249,11 +251,11 @@ namespace BigPicture.Repository.Neo4j
             }
         }
 
-        public List<Core.IEntity> RunCustomQuery(string query, Type type)
+        public List<Core.Entity> RunCustomQuery(string query, Type type)
         {
             var statementResult = this.Read(query);
 
-            var result = new List<Core.IEntity>();
+            var result = new List<Core.Entity>();
 
             foreach(var item in statementResult)
             {
@@ -275,7 +277,7 @@ namespace BigPicture.Repository.Neo4j
                     }
                 }
 
-                result.Add(obj as Core.IEntity);
+                result.Add(obj as Core.Entity);
             }
 
             return result;

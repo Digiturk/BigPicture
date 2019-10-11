@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Resolver.Oracle"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Repl.Commands", "BigPicture.Repl.Commands\BigPicture.Repl.Commands.csproj", "{55C3611A-A4D3-4B4B-853A-1CFE604D1466}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Api", "BigPicture.Api\BigPicture.Api.csproj", "{60D9EEA8-A19C-4703-8C88-682083C5E15C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Api", "BigPicture.Api\BigPicture.Api.csproj", "{6E4E735D-191E-4AB4-B1F2-69E1D1C00920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{55C3611A-A4D3-4B4B-853A-1CFE604D1466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55C3611A-A4D3-4B4B-853A-1CFE604D1466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55C3611A-A4D3-4B4B-853A-1CFE604D1466}.Release|Any CPU.Build.0 = Release|Any CPU
-		{60D9EEA8-A19C-4703-8C88-682083C5E15C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{60D9EEA8-A19C-4703-8C88-682083C5E15C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{60D9EEA8-A19C-4703-8C88-682083C5E15C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{60D9EEA8-A19C-4703-8C88-682083C5E15C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E4E735D-191E-4AB4-B1F2-69E1D1C00920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E4E735D-191E-4AB4-B1F2-69E1D1C00920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E4E735D-191E-4AB4-B1F2-69E1D1C00920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E4E735D-191E-4AB4-B1F2-69E1D1C00920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
