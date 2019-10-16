@@ -1,5 +1,3 @@
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.csprojAssemblyReference.cache
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\BigPicture.Repl.Commands.dll.config
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\BigPicture.Repl.Commands.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\BigPicture.Repl.Commands.pdb
@@ -39,6 +37,8 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\Mic
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\System.Numerics.Vectors.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\System.Buffers.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.csprojAssemblyReference.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repl.Commands\obj\Debug\BigPicture.Repl.Commands.pdb

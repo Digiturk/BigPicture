@@ -4625,6 +4625,18 @@
           "bin/placeholder/BigPicture.Core.dll": {}
         }
       },
+      "BigPicture.Repository.ElasticSearch/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "BigPicture.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BigPicture.Repository.ElasticSearch.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BigPicture.Repository.ElasticSearch.dll": {}
+        }
+      },
       "BigPicture.Repository.Neo4j/1.0.0": {
         "type": "project",
         "dependencies": {
@@ -12553,6 +12565,11 @@
       "path": "../BigPicture.Core/BigPicture.Core.csproj",
       "msbuildProject": "../BigPicture.Core/BigPicture.Core.csproj"
     },
+    "BigPicture.Repository.ElasticSearch/1.0.0": {
+      "type": "project",
+      "path": "../BigPicture.Repository.ElasticSearch/BigPicture.Repository.ElasticSearch.csproj",
+      "msbuildProject": "../BigPicture.Repository.ElasticSearch/BigPicture.Repository.ElasticSearch.csproj"
+    },
     "BigPicture.Repository.Neo4j/1.0.0": {
       "type": "project",
       "path": "../BigPicture.Repository.Neo4j/BigPicture.Repository.Neo4j.csproj",
@@ -12561,6 +12578,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "BigPicture.Repository.ElasticSearch >= 1.0.0",
       "BigPicture.Repository.Neo4j >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
@@ -12599,6 +12617,9 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
+            "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj": {
+              "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj"
+            },
             "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj": {
               "projectPath": "D:\\src\\digiturk\\BigPicture\\src\\BigPicture\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj"
             }

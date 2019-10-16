@@ -11,7 +11,7 @@ export default class NodeHttpService implements IHttpService {
   
   constructor() {
     this.axiosInstance = axios.create({
-      baseURL: 'https://localhost:44348/api/',
+      baseURL: 'http://localhost:62616/api/',
     })
   }
   

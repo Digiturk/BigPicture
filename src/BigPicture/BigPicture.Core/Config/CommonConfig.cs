@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Web;
 
 namespace BigPicture.Core.Config
 {
@@ -16,14 +17,21 @@ namespace BigPicture.Core.Config
             {
                 if(_Instance == null)
                 {
-                    _Instance = JsonConvert.DeserializeObject<CommonConfig>(File.ReadAllText(@"config.json"));
+                    var path = @"config.json";
+                    if (HttpContext.Current != null)
+                    {
+                        path = HttpContext.Current.Server.MapPath(Path.Combine("~/" + path));
+                    }
+
+                    _Instance = JsonConvert.DeserializeObject<CommonConfig>(File.ReadAllText(path));
                 }
 
                 return _Instance;
             }
         }
 
-        public String Repository { get; set; }        
+        public String GraphRepository { get; set; }        
+        public String DocumentRepository { get; set; }
 
         public Dictionary<String, String> Options { get; set; }
     }   

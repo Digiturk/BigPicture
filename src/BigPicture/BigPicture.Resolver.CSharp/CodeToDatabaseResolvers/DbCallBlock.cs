@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp
 {
-    public class DbCallBlock : IEntity
+    public class DbCallBlock : Entity
     {
         public String Id { get; set; }
 

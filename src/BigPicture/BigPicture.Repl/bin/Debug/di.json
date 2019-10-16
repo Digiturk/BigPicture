@@ -21,6 +21,16 @@
       ]
     },
     {
+      "injectProperties": true,
+      "instanceScope": "single-instance",
+      "type": "BigPicture.Repository.ElasticSearch.ElasticRepository, BigPicture.Repository.ElasticSearch",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IDocumentRepository"
+        }
+      ]
+    },
+    {
       "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.UsingDirectiveAnalyser, BigPicture.Resolver.CSharp",
       "services": [
         {

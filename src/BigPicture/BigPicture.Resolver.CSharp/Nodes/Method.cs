@@ -9,12 +9,9 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class Method : Node
     {
-        public String Id { get; set; }
-
         public String Assembly { get; set; }
         public String NameSpace { get; set; }
         public String OwnerName { get; set; }
-        public String Name { get; set; }
         public String Modifier { get; set; }
         public bool HasBody { get; set; }
     }

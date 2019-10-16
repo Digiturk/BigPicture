@@ -29,3 +29,10 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\obj\Debug\netcoreapp2.1
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\obj\Debug\netcoreapp2.1\BigPicture.Api.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\obj\Debug\netcoreapp2.1\BigPicture.Api.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\config.json
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\BigPicture.Repository.ElasticSearch.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\Nest.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\Elasticsearch.Net.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\BigPicture.Repository.ElasticSearch.pdb
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\BigPicture.Repository.ElasticSearch.dll.config
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\Nest.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Api\bin\Debug\netcoreapp2.1\Elasticsearch.Net.xml

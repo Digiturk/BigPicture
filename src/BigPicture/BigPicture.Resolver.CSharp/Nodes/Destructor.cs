@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.Nodes
 {
-    public class Destructor : INode
+    public class Destructor : Node
     {
-        public String Id { get; set; }
-
-        public String Name { get; set; }
         public String Modifier { get; set; }
     }
 }

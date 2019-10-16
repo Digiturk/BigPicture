@@ -65,8 +65,9 @@
       <HintPath>..\packages\Replify.Net.1.3.0\lib\netstandard2.0\Replify.Net.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Collections.Immutable, Version=1.2.3.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Collections.Immutable.1.5.0\lib\netstandard2.0\System.Collections.Immutable.dll</HintPath>
@@ -147,6 +148,10 @@
     <ProjectReference Include="..\BigPicture.Repl.Commands\BigPicture.Repl.Commands.csproj">
       <Project>{55c3611a-a4d3-4b4b-853a-1cfe604d1466}</Project>
       <Name>BigPicture.Repl.Commands</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BigPicture.Repository.ElasticSearch\BigPicture.Repository.ElasticSearch.csproj">
+      <Project>{7029adae-0ed5-4168-8789-4aa603a1087d}</Project>
+      <Name>BigPicture.Repository.ElasticSearch</Name>
     </ProjectReference>
     <ProjectReference Include="..\BigPicture.Repository.Neo4j\BigPicture.Repository.Neo4j.csproj">
       <Project>{556f6887-7179-463c-b22e-44863ea54e16}</Project>

@@ -17,13 +17,15 @@ export default class Node extends Entity {
     return <WFace.WAvatar title={this.Name} style={{ backgroundColor, width: size, height: size, fontSize }}>{shortLabel}</WFace.WAvatar>
   }
 
-  public getNavigationItems = (): NavigationItem[] => [
-    {
-      icon: 'layers',
-      text: 'General Information',
-      component: GeneralInformation
-    }
-  ];
+  public getNavigationItems(): NavigationItem[] {
+    return [
+      {
+        icon: 'layers',
+        text: 'General Information',
+        component: GeneralInformation
+      }
+    ];
+  }
 
   private stringToColor = (text: string): string => {
     let hash = 0;

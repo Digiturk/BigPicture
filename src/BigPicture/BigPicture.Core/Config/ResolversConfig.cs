@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Web;
 
 namespace BigPicture.Core.Config
 {
@@ -16,7 +17,12 @@ namespace BigPicture.Core.Config
             {
                 if(_Instance == null)
                 {
-                    _Instance = JsonConvert.DeserializeObject<ResolversConfig>(File.ReadAllText(@"di-resolvers.json"));
+                    var path = @"di-resolvers.json";
+                    if (HttpContext.Current != null)
+                    {
+                        path = HttpContext.Current.Server.MapPath(Path.Combine("~/", path));
+                    }
+                    _Instance = JsonConvert.DeserializeObject<ResolversConfig>(File.ReadAllText(path));
                 }
 
                 return _Instance;

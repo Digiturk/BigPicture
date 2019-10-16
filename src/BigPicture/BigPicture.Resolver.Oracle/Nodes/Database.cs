@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.Oracle.Nodes
 {
-    public class Database : INode
+    public class Database : Node
     {
-        public String Id { get; set; }
-
-        public String Name { get; set; }
         public String Type { get; set; }
         public String[] DoNotParse { get; set; }
     }

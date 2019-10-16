@@ -9,7 +9,6 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class Accessor : Node
     {
-        public String Name { get; set; }
         public String Modifier { get; set; }
         public bool HasBody { get; set; }
     }

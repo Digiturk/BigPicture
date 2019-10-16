@@ -26,6 +26,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\BigPicture.Repository.ElasticSearch\BigPicture.Repository.ElasticSearch.csproj" />
     <ProjectReference Include="..\BigPicture.Repository.Neo4j\BigPicture.Repository.Neo4j.csproj" />
   </ItemGroup>
 

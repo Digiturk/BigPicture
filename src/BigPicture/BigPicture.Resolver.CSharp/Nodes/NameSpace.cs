@@ -7,8 +7,6 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class NameSpace : Node
     {
-        public String Id { get; set; }
-
         public String Text { get; set; }
     }
 }

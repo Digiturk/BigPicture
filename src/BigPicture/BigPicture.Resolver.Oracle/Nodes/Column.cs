@@ -7,16 +7,14 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.Oracle.Nodes
 {
-    public class Column : INode
+    public class Column : Node
     {
-        public String Id { get; set; }
 
         public String DatabaseName { get; set; }
         public String Schema { get; set; }
         public String TableName { get; set; }
 
         public Int32 ColumnId { get; set; }
-        public String Name { get; set; }
         public String DataType { get; set; }
         public Int32 DataLength { get; set; }
         public Int32 DataPrecision { get; set; }

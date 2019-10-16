@@ -1,0 +1,188 @@
+{
+  "defaultAssembly": "BigPicture.Core",
+  "components": [
+    {
+      "injectProperties": true,
+      "type": "BigPicture.Core.Resolver.ResolveEngine",
+      "services": [
+        {
+          "type": "BigPicture.Core.Resolver.IResolveEngine"
+        }
+      ]
+    },
+    {
+      "injectProperties": true,
+      "instanceScope": "single-instance",
+      "type": "BigPicture.Repository.Neo4j.Repository, BigPicture.Repository.Neo4j",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IRepository"
+        }
+      ]
+    },
+    {
+      "injectProperties": true,
+      "instanceScope": "single-instance",
+      "type": "BigPicture.Repository.Neo4j.GraphRepository, BigPicture.Repository.Neo4j",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IGraphRepository"
+        }
+      ]
+    },
+    {
+      "injectProperties": true,
+      "instanceScope": "single-instance",
+      "type": "BigPicture.Repository.ElasticSearch.ElasticRepository, BigPicture.Repository.ElasticSearch",
+      "services": [
+        {
+          "type": "BigPicture.Core.Repository.IDocumentRepository"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.UsingDirectiveAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.UsingDirectiveSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.NamespaceDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.NamespaceDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ClassDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ClassDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.StructDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.StructDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.InterfaceDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.InterfaceDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.EnumDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.EnumDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.EnumMemberDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.EnumMemberDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.AttributeListAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.AttributeListSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.AttributeAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.AttributeSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.BaseListAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.BaseListSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.FieldDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.FieldDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.PropertyDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.PropertyDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.AccessorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.AccessorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.MethodDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.MethodDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ConstructorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ConstructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.DestructorDeclarationAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.DestructorDeclarationSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.ParameterAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.ParameterSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    },
+    {
+      "type": "BigPicture.Resolver.CSharp.CodeAnalysers.Implementations.BlockAnalyser, BigPicture.Resolver.CSharp",
+      "services": [
+        {
+          "type": "BigPicture.Resolver.CSharp.CodeAnalysers.IAnalyser`1[[Microsoft.CodeAnalysis.CSharp.Syntax.BlockSyntax, Microsoft.CodeAnalysis.CSharp]], BigPicture.Resolver.CSharp"
+        }
+      ]
+    }
+  ]
+}

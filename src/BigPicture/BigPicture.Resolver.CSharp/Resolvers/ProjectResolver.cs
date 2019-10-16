@@ -13,10 +13,12 @@ namespace BigPicture.Resolver.CSharp.Resolvers
     public class ProjectResolver : IResolver<Project>
     {
         private IRepository _Repository { get; set; }
+        private IDocumentRepository _DocumentRepository { get; set; }
 
-        public ProjectResolver(IRepository repository)
+        public ProjectResolver(IRepository repository, IDocumentRepository documentRepository)
         {
             this._Repository = repository;
+            this._DocumentRepository = documentRepository;
         }
 
         public void Resolve(Project project)
@@ -102,6 +104,18 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
                 compileItem.Id = this._Repository.FindIdOrCreate(compileItem, "CompileItem", new { AbsolutePath = compileItem.AbsolutePath });
                 this._Repository.CreateRelationship(project.Id, compileItem.Id, "COMPILES");
+
+                // Store code on document database (Elastic search)
+                var codeBlock = new CodeBlock();
+                codeBlock.Id = compileItem.Id;
+                codeBlock.Name = compileItem.Name;
+                codeBlock.Type = "CompileItem";
+                codeBlock.Path = compileItem.AbsolutePath;
+                codeBlock.Code = File.ReadAllText(codeBlock.Path);
+
+                this._DocumentRepository.CreateCodeBlock(codeBlock);
+
+                var cb = this._DocumentRepository.GetCodeBlock(codeBlock.Id);
             }
         }
     }

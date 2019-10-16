@@ -19,7 +19,7 @@ export default class NodeSearchProvider implements ISearchProvider {
   search(term: string): Promise<Node[]> {
     return new Promise<Node[]>((resolve, reject) => {
 
-      this.httpService.get<Node[]>("Node/search/" + term + "/8")
+      this.httpService.get<Node[]>("node/search/" + term + "/8")
         .then(resolve)
         .catch(error => {
           console.error(error);

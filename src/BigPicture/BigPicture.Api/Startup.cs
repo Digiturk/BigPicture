@@ -32,6 +32,7 @@ namespace BigPicture.Api
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
                 .AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 
+            services.AddScoped<IDocumentRepository, Repository.ElasticSearch.ElasticRepository>();
             services.AddScoped<IGraphRepository, Repository.Neo4j.GraphRepository>();
             services.AddScoped<IRepository, Repository.Neo4j.Repository>();            
         }

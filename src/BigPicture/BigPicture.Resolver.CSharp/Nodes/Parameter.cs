@@ -9,8 +9,5 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class Parameter : Node
     {
-        public String Id { get; set; }
-
-        public String Name { get; set; }        
     }
 }

@@ -1,0 +1,81 @@
+{
+  "Options": {
+    "RemoveAllOnStart":  true
+  },
+  "StartData": [
+    {
+      "NodeTypeName": "Solution",
+      "Data": {
+        "Path": "D:\\dtl1tfs1\\CSI\\Prod-OrderPlay\\CSI\\Digiturk.CSI.sln",
+        "Name": "Digiturk.CSI"
+      }
+    },
+    {
+      "NodeTypeName": "Database",
+      "Data": {
+        "Name": "DBS",
+        "Type": "Oracle",
+        "DoNotParse": [ "SYS", "SYSTEM", "OPER", "OJVMSYS", "XDB", "PUBLIC" ]
+      }
+    }
+  ],
+  "Resolvers": [
+    {
+      "Name": "Solution",
+      "Resolves": "Solution",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Solution, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.SolutionResolver, BigPicture.Resolver.CSharp"
+    },
+    {
+      "Name": "Project",
+      "Resolves": "Project",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.ProjectResolver, BigPicture.Resolver.CSharp"
+    },
+    {
+      "Name": "Code",
+      "Resolves": "Project",
+      "RunParallel": false,
+      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.CodeResolver, BigPicture.Resolver.CSharp"
+    },
+    {
+      "Name": "Database",
+      "Resolves": "Database",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Database, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DatabaseResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Schema",
+      "Resolves": "Schema",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Schema, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.SchemaResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Dependency",
+      "Resolves": "DbObject",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DependencyResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "Table",
+      "Resolves": "Table",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.TableResolver, BigPicture.Resolver.Oracle"
+    },
+    {
+      "Name": "CodeToDatabaseResolver",
+      "Resolves": "DbCallBlock",
+      "RunParallel": true,
+      "NodeType": "BigPicture.Resolver.CSharp.DbCallBlock, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.ExecuteNonQueryResolver, BigPicture.Resolver.CSharp",
+      "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {Name: 'ExecuteNonQuery'})\twhere not (Calls.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT Calls.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn Code, Calls, DbObject"
+    }
+  ]
+}

@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v2.1": {
       "BigPicture.Api/1.0.0": {
         "dependencies": {
+          "BigPicture.Repository.ElasticSearch": "1.0.0",
           "BigPicture.Repository.Neo4j": "1.0.0",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
@@ -540,6 +541,19 @@
           "BigPicture.Core.dll": {}
         }
       },
+      "BigPicture.Repository.ElasticSearch/1.0.0": {
+        "dependencies": {
+          "BigPicture.Core": "1.0.0",
+          "Nest": "7.0.0.0",
+          "Elasticsearch.Net": "7.0.0.0"
+        },
+        "runtime": {
+          "BigPicture.Repository.ElasticSearch.dll": {}
+        },
+        "compile": {
+          "BigPicture.Repository.ElasticSearch.dll": {}
+        }
+      },
       "BigPicture.Repository.Neo4j/1.0.0": {
         "dependencies": {
           "BigPicture.Core": "1.0.0",
@@ -550,6 +564,22 @@
         },
         "compile": {
           "BigPicture.Repository.Neo4j.dll": {}
+        }
+      },
+      "Nest.Reference/7.0.0.0": {
+        "runtime": {
+          "Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.1.0"
+          }
+        }
+      },
+      "Elasticsearch.Net.Reference/7.0.0.0": {
+        "runtime": {
+          "Elasticsearch.Net.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.3.1.0"
+          }
         }
       },
       "Neo4j.Driver.Reference/1.7.226.2": {
@@ -3720,8 +3750,23 @@
       "serviceable": false,
       "sha512": ""
     },
+    "BigPicture.Repository.ElasticSearch/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BigPicture.Repository.Neo4j/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nest.Reference/7.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Elasticsearch.Net.Reference/7.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     },

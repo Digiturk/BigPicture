@@ -7,11 +7,9 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class Project : Node
     {
-        public String Id { get; set; }
         public String AbsolutePath { get; set; }
         public String ProjectGuid { get; set; }
         public String RelativePath { get; set; }
-        public String Name { get; set; }
 
         public String OutputType { get; set; }
         public String AssemblyName { get; set; }

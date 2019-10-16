@@ -15,7 +15,7 @@ namespace BigPicture.Repository.Neo4j
 {
     public class Repository : IRepository, IDisposable
     {
-        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.Repository);
+        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.GraphRepository);
 
         public string TestConnection()
         {

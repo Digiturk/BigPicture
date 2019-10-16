@@ -35,7 +35,7 @@ export class NodeBrowser extends React.Component<WFace.BaseScreenProps, NodeBrow
 
   loadNode = () => {
     this.setState({ isLoading: true }, () => {
-      this.props.httpService.get('Node/' + this.props.screenData.initialValues.node.Id)
+      this.props.httpService.get('node/' + this.props.screenData.initialValues.node.Id)
         .then(node => {
           const implementation = getNodeImplementation(node);
           this.setState({ node: implementation });
@@ -62,7 +62,7 @@ export class NodeBrowser extends React.Component<WFace.BaseScreenProps, NodeBrow
           />          
         </WFace.WGrid>
         <WFace.WGrid item xl={10} lg={9} md={7} sm={6} xs={12}>          
-          {this.state.component ? <this.state.component node={node}/> : <LoadingPage/>}
+          {this.state.component ? <this.state.component node={node} {...this.props}/> : <LoadingPage/>}
         </WFace.WGrid>
       </WFace.WGrid>
     )

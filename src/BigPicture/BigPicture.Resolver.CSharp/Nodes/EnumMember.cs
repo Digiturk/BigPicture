@@ -9,9 +9,6 @@ namespace BigPicture.Resolver.CSharp.Nodes
 {
     public class EnumMember : Node
     {
-        public String Id { get; set; }
-
-        public String Name { get; set; }
         public String Value { get; set; }
     }
 }

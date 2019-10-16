@@ -7,6 +7,8 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Autofac.Core;
+using System.Web;
+using System.IO;
 
 namespace BigPicture.Core.IOC
 {
@@ -15,9 +17,15 @@ namespace BigPicture.Core.IOC
         private static IContainer _Container;
 
         static Container()
-        {                        
+        {
+            var path = @"di.json";
+            if (HttpContext.Current != null)
+            {
+                path = HttpContext.Current.Server.MapPath(Path.Combine("~/" + path));
+            }
+
             var config = new ConfigurationBuilder();
-            config.AddJsonFile("di.json");
+            config.AddJsonFile(path);
 
             var module = new ConfigurationModule(config.Build());
             var builder = new ContainerBuilder();

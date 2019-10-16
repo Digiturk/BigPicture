@@ -15,7 +15,7 @@ namespace BigPicture.Repository.Neo4j
     {
         private const String NODE_BASE_QUERY = "{ Name: node.Name, Labels: labels(node), Id: id(node)}";
         private const String NODE_FULL_QUERY = "{ .*, Labels: labels(node), Id: id(node)}";
-        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.Repository);
+        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.GraphRepository);
 
         public object GetNodeById(String id)
         {

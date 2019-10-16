@@ -1,11 +1,10 @@
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.csprojAssemblyReference.cache
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\BigPicture.Repository.Neo4j.dll.config
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\BigPicture.Repository.Neo4j.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\BigPicture.Repository.Neo4j.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\BigPicture.Core.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Neo4j.Driver.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Newtonsoft.Json.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Replify.Net.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Autofac.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Microsoft.Extensions.Configuration.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Autofac.Configuration.dll
@@ -40,7 +39,8 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\System.Numerics.Vectors.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\System.Buffers.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.csprojAssemblyReference.cache
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\obj\Debug\BigPicture.Repository.Neo4j.pdb
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.Neo4j\bin\Debug\Replify.Net.dll

@@ -1,4 +1,3 @@
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\BigPicture.Core.dll.config
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\BigPicture.Core.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\BigPicture.Core.pdb
@@ -13,6 +12,7 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Microsoft.Ex
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Newtonsoft.Json.dll
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Replify.Net.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Buffers.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Memory.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Numerics.Vectors.dll
@@ -34,8 +34,8 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Buffe
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Memory.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Numerics.Vectors.xml
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csproj.CoreCompileInputs.cache
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.pdb
-D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\bin\Debug\Replify.Net.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Core\obj\Debug\BigPicture.Core.csprojAssemblyReference.cache
