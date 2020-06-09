@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class EnumMemberDeclarationAnalyser : IAnalyser<EnumMemberDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public EnumMemberDeclarationAnalyser(IRepository repository)
+        public EnumMemberDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, EnumMemberDeclarationSyntax node, SemanticModel model)
@@ -33,7 +35,19 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             #endregion
 
-            foreach(var attr in node.AttributeLists)
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = enumMember.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = enumMember.Name;
+            codeBlock.Type = "EnumMember";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
+
+            foreach (var attr in node.AttributeLists)
             {
                 CodeResolver.FindVisitorForNode(enumMember.Id, model, attr);
             }

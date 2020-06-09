@@ -17,12 +17,12 @@ namespace BigPicture.Core.Resolver
     public class ResolveEngine : IResolveEngine
     {
         public IRepository Repository { get; set; }
-        public IDocumentRepository DocumentRepository { get; set; }
+        public ICodeRepository CodeRepository { get; set; }
 
-        public ResolveEngine(IRepository repository, IDocumentRepository documentRepository)
+        public ResolveEngine(IRepository repository, ICodeRepository codeRepository)
         {
             this.Repository = repository;
-            this.DocumentRepository = documentRepository;
+            this.CodeRepository= codeRepository;
         }
 
         public void LoadStartData()
@@ -41,7 +41,7 @@ namespace BigPicture.Core.Resolver
                 Console.WriteLine("Removing all graph data...");
                 this.Repository.DeleteAll();
                 Console.WriteLine("Removing all code data...");
-                this.DocumentRepository.RemoveAllCodeBlocks();
+                this.CodeRepository.RemoveAllCodeBlocks();
             }
             LoadStartData();
 

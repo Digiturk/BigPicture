@@ -8,11 +8,11 @@ using System.Text;
 
 namespace BigPicture.Repository.ElasticSearch
 {
-    public class ElasticRepository : IDocumentRepository
+    public class ElasticRepository : ICodeRepository
     {
         private const String CODE_BLOCK_INDEX = "code";
 
-        private static readonly ConnectionSettings ConnSettings = new ConnectionSettings(new Uri(CommonConfig.Instance.DocumentRepository))
+        private static readonly ConnectionSettings ConnSettings = new ConnectionSettings(new Uri(CommonConfig.Instance.CodeRepository))
             .DefaultMappingFor<CodeBlock>(i => i                
                 .IndexName(CODE_BLOCK_INDEX)
                 .IdProperty(p => p.Id)

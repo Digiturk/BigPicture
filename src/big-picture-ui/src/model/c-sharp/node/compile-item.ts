@@ -1,6 +1,6 @@
 import Node from '../../base/node';
 import { CodeEditor } from '../../components/code-editor';
-import NavigationItem from '../../components/base/navigation-item';
+import NavigationItem, { NavigationItems } from '../../components/base/navigation-item';
 
 export class CompileItem extends Node {
   Path: string;
@@ -13,11 +13,7 @@ export class CompileItem extends Node {
     var superNavItems = super.getNavigationItems();
     return [
       ...superNavItems,
-      {
-        icon: 'layers',
-        text: 'Code',
-        component: CodeEditor
-      }
+      NavigationItems.code
     ];
   }
 }

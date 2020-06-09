@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class MethodDeclarationAnalyser : IAnalyser<MethodDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public MethodDeclarationAnalyser(IRepository repository)
+        public MethodDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, MethodDeclarationSyntax node, SemanticModel model)
@@ -41,6 +43,18 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
                 Name = method.Name
             });
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
+
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = method.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = method.Name;
+            codeBlock.Type = "Method";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
 
             var returnSymbol = model.GetSymbolInfo(node.ReturnType);
             var returnTypeId = CodeResolver.FindOrCreateType(returnSymbol.Symbol)?.Id;

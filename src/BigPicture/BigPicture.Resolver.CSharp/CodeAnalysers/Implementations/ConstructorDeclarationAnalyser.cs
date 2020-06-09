@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class ConstructorDeclarationAnalyser : IAnalyser<ConstructorDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public ConstructorDeclarationAnalyser(IRepository repository)
+        public ConstructorDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, ConstructorDeclarationSyntax node, SemanticModel model)
@@ -30,7 +32,19 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             method.Id = this._Repository.CreateNode(method, "Constructor");
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
 
-            foreach(var prmNode in node.ParameterList.ChildNodes())
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = method.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = method.Name;
+            codeBlock.Type = "Constructor";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
+
+            foreach (var prmNode in node.ParameterList.ChildNodes())
             {
                 CodeResolver.FindVisitorForNode(method.Id, model, prmNode);
             }

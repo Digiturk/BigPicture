@@ -31,7 +31,7 @@ namespace BigPicture.Core.Config
         }
 
         public String GraphRepository { get; set; }        
-        public String DocumentRepository { get; set; }
+        public String CodeRepository { get; set; }
 
         public Dictionary<String, String> Options { get; set; }
     }   

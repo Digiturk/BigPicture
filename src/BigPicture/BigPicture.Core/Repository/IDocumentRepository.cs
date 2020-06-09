@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BigPicture.Core.Repository
 {
-    public interface IDocumentRepository
+    public interface ICodeRepository
     {
         CodeBlock GetCodeBlock(String id);
         string CreateCodeBlock(CodeBlock codeBlock);

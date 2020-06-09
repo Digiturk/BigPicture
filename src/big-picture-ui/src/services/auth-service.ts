@@ -29,7 +29,8 @@ export default class AuthService implements IAuthService {
       result.push({
         id: (++id).toString(),
         text: 'Node Browser',
-        screen: 'NodeBrowser'        
+        screen: 'NodeBrowser',
+        hideOnNavigationList: true
       });    
       resolve(result);
     });

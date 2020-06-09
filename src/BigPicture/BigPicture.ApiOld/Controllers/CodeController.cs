@@ -13,18 +13,18 @@ namespace BigPicture.ApiOld.Controllers
     [RoutePrefix("api/code")]
     public class CodeController : ApiController
     {
-        private readonly IDocumentRepository _DocumentRepository;
+        private readonly ICodeRepository _CodeRepository;
 
         public CodeController()
         {            
-            this._DocumentRepository = Container.Resolve<IDocumentRepository>();
+            this._CodeRepository = Container.Resolve<ICodeRepository>();
         }
 
         [Route("{id}")]
         [HttpGet]
         public JsonResult<CodeBlock> Get(String id)
         {
-            var codeBlock = this._DocumentRepository.GetCodeBlock(id);
+            var codeBlock = this._CodeRepository.GetCodeBlock(id);
             return Json(codeBlock);
         }
     }

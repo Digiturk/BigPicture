@@ -13,5 +13,6 @@ namespace BigPicture.Core.Repository
         public String Type { get; set; }
         public String Code { get; set; }
         public String Path { get; set; }
+        public String Language { get; set; }
     }
 }

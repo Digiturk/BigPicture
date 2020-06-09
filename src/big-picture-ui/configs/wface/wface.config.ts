@@ -6,7 +6,7 @@ import { WTheme } from '@wface/components';
 import NodeHttpService from '../../src/services/node-http-service';
 import NodeSearhProvider from '../../src/services/node-search-provider';
 
-const theme = {
+const theme = {  
   designDetails: {
     pagePadding: 10
   },

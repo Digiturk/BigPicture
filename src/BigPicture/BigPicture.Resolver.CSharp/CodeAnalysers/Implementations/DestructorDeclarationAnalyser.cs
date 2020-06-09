@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class DestructorDeclarationAnalyser : IAnalyser<DestructorDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public DestructorDeclarationAnalyser(IRepository repository)
+        public DestructorDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, DestructorDeclarationSyntax node, SemanticModel model)
@@ -30,7 +32,19 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             method.Id = this._Repository.CreateNode(method, "Destructor");
             this._Repository.CreateRelationship(parentId, method.Id, "HAS");
 
-            foreach(var prmNode in node.ParameterList.ChildNodes())
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = method.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = method.Name;
+            codeBlock.Type = "Destructor";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
+
+            foreach (var prmNode in node.ParameterList.ChildNodes())
             {
                 CodeResolver.FindVisitorForNode(method.Id, model, prmNode);
             }

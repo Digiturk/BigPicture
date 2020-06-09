@@ -13,17 +13,17 @@ namespace BigPicture.Api.Controllers
     [ApiController]
     public class CodeController : ControllerBase
     {
-        private readonly IDocumentRepository _DocumentRepository;
+        private readonly ICodeRepository _CodeRepository;
 
-        public CodeController(IDocumentRepository documentRepository)
+        public CodeController(ICodeRepository codeRepository)
         {
-            this._DocumentRepository = documentRepository;            
+            this._CodeRepository = codeRepository;            
         }
 
         [HttpGet("{id}")]
         public ActionResult<CodeBlock> GetCode(String id)
         {
-            var codeBlock = this._DocumentRepository.GetCodeBlock(id);
+            var codeBlock = this._CodeRepository.GetCodeBlock(id);
             return Ok(codeBlock);
         }                
     }

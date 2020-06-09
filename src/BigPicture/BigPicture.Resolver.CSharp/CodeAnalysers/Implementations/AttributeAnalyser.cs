@@ -9,10 +9,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class AttributeAnalyser : IAnalyser<AttributeSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public AttributeAnalyser(IRepository repository)
+        public AttributeAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
-            this._Repository = repository;        
+            this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, AttributeSyntax node, SemanticModel model)
@@ -36,6 +38,18 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
 
             cls.Id = this._Repository.FindIdOrCreate(cls, "Type", new { Name = cls.Name, NameSpace = cls.NameSpace, Assembly = cls.Assembly });
             this._Repository.CreateRelationship(parentId, cls.Id, "HAS");
+
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = cls.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = cls.Name;
+            codeBlock.Type = "Attribute";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
         }
     }
 }

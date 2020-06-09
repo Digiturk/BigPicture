@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class InterfaceDeclarationAnalyser : IAnalyser<InterfaceDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public InterfaceDeclarationAnalyser(IRepository repository)
+        public InterfaceDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, InterfaceDeclarationSyntax node, SemanticModel model)
@@ -34,7 +36,19 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             this._Repository.UpdateNode<Interface>(interFace, "Type");
             this._Repository.CreateRelationship(parentId, interFace.Id, "CONTAINS");
 
-            if(node.BaseList != null)
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = interFace.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = interFace.Name;
+            codeBlock.Type = "Interface";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
+
+            if (node.BaseList != null)
             {
                 CodeResolver.FindVisitorForNode(interFace.Id, model, node.BaseList);                
             }

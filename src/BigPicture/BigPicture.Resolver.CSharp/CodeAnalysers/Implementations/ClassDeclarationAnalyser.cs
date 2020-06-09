@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class ClassDeclarationAnalyser : IAnalyser<ClassDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public ClassDeclarationAnalyser(IRepository repository)
+        public ClassDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, ClassDeclarationSyntax node, SemanticModel model)
@@ -37,7 +39,19 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
             this._Repository.UpdateNode<Class>(cls, "Type");
             this._Repository.CreateRelationship(parentId, cls.Id, "CONTAINS");
 
-            if(node.BaseList != null)
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = cls.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = cls.Name;
+            codeBlock.Type = "Class";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
+
+            if (node.BaseList != null)
             {
                 CodeResolver.FindVisitorForNode(cls.Id, model, node.BaseList);                
             }

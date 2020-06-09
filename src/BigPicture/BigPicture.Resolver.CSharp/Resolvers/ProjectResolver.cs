@@ -13,12 +13,12 @@ namespace BigPicture.Resolver.CSharp.Resolvers
     public class ProjectResolver : IResolver<Project>
     {
         private IRepository _Repository { get; set; }
-        private IDocumentRepository _DocumentRepository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public ProjectResolver(IRepository repository, IDocumentRepository documentRepository)
+        public ProjectResolver(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
-            this._DocumentRepository = documentRepository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Resolve(Project project)
@@ -108,14 +108,13 @@ namespace BigPicture.Resolver.CSharp.Resolvers
                 // Store code on document database (Elastic search)
                 var codeBlock = new CodeBlock();
                 codeBlock.Id = compileItem.Id;
+                codeBlock.Language = "csharp";
                 codeBlock.Name = compileItem.Name;
                 codeBlock.Type = "CompileItem";
                 codeBlock.Path = compileItem.AbsolutePath;
                 codeBlock.Code = File.ReadAllText(codeBlock.Path);
 
-                this._DocumentRepository.CreateCodeBlock(codeBlock);
-
-                var cb = this._DocumentRepository.GetCodeBlock(codeBlock.Id);
+                this._CodeRepository.CreateCodeBlock(codeBlock);               
             }
         }
     }

@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class FieldDeclarationAnalyser : IAnalyser<FieldDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public FieldDeclarationAnalyser(IRepository repository)
+        public FieldDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, FieldDeclarationSyntax node, SemanticModel model)
@@ -58,6 +60,18 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
                 this._Repository.CreateRelationship(field.Id, typeId, "TYPEOF");
             }
 
+            #endregion
+
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = field.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = field.Name;
+            codeBlock.Type = "Field";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
             #endregion
 
 

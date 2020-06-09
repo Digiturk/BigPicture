@@ -14,10 +14,12 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
     public class PropertyDeclarationAnalyser : IAnalyser<PropertyDeclarationSyntax>
     {
         private IRepository _Repository { get; set; }
+        private ICodeRepository _CodeRepository { get; set; }
 
-        public PropertyDeclarationAnalyser(IRepository repository)
+        public PropertyDeclarationAnalyser(IRepository repository, ICodeRepository codeRepository)
         {
             this._Repository = repository;
+            this._CodeRepository = codeRepository;
         }
 
         public void Analyse(string parentId, PropertyDeclarationSyntax node, SemanticModel model)
@@ -44,6 +46,18 @@ namespace BigPicture.Resolver.CSharp.CodeAnalysers.Implementations
                 Name = property.Name
             });
             this._Repository.CreateRelationship(parentId, property.Id, "HAS");
+
+            #region CodeRepository
+            // Store code on document database (Elastic search)
+            var codeBlock = new CodeBlock();
+            codeBlock.Id = property.Id;
+            codeBlock.Language = "csharp";
+            codeBlock.Name = property.Name;
+            codeBlock.Type = "Property";
+            codeBlock.Code = node.ToFullString();
+
+            this._CodeRepository.CreateCodeBlock(codeBlock);
+            #endregion
 
             #endregion
 

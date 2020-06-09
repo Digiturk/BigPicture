@@ -1,16 +1,18 @@
 import * as React from 'react';
 import * as WFace from '@wface/components';
 import Entity from './entity';
-import NavigationItem from '../components/base/navigation-item';
+import NavigationItem, { NavigationItems } from '../components/base/navigation-item';
 import GeneralInformation from '../components/general-information';
 
 export default class Node extends Entity {
   Name: string;
   Labels: string[];
 
-  public getShortLabel = (): string => this.Labels[0].substr(0, 2)
+  public getShortLabel (): string { 
+    return this.Labels[0].substr(0, 2);
+  }
 
-  public getIcon = (size: number = 40): React.ReactElement => {
+  public getIcon(size: number = 40): React.ReactElement {
     const shortLabel = this.getShortLabel();
     const backgroundColor = this.stringToColor(this.Labels[0]);
     const fontSize = `calc(1.25rem * ${size / 40})`;
@@ -18,13 +20,7 @@ export default class Node extends Entity {
   }
 
   public getNavigationItems(): NavigationItem[] {
-    return [
-      {
-        icon: 'layers',
-        text: 'General Information',
-        component: GeneralInformation
-      }
-    ];
+    return [ NavigationItems.generalInformation ];
   }
 
   private stringToColor = (text: string): string => {
