@@ -54,7 +54,7 @@
   "@wface/container": "0.25.0",
   "@wface/ioc": "0.25.0",
   "es6-promise": "4.2.8",
-  "lodash": "4.17.15",
+  "lodash": "4.17.19",
   "react-monaco-editor": "0.31.0",
   "react-resize-detector": "4.2.1"
  }
