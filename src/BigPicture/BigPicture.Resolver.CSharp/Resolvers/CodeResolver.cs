@@ -1,18 +1,16 @@
-﻿using BigPicture.Core.Resolver;
-using BigPicture.Resolver.CSharp.Nodes;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.CodeAnalysis.MSBuild;
-using System.Linq;
-using Microsoft.CodeAnalysis.CSharp.Syntax;
-using Microsoft.CodeAnalysis;
+﻿using BigPicture.Core.IOC;
 using BigPicture.Core.Repository;
-using Microsoft.CodeAnalysis.CSharp;
-using BigPicture.Core.IOC;
+using BigPicture.Core.Resolver;
 using BigPicture.Resolver.CSharp.CodeAnalysers;
+using BigPicture.Resolver.CSharp.Nodes;
+using Microsoft.Build.Locator;
+using Microsoft.CodeAnalysis;
+using Microsoft.CodeAnalysis.CSharp;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.CodeAnalysis.MSBuild;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace BigPicture.Resolver.CSharp.Resolvers
 {
@@ -26,9 +24,60 @@ namespace BigPicture.Resolver.CSharp.Resolvers
         {
             this._Repository = repository;
         }
+        private static VisualStudioInstance SelectVisualStudioInstance(VisualStudioInstance[] visualStudioInstances)
+        {            
+            if (visualStudioInstances.Length == 1)
+            {
+                return visualStudioInstances[0];
+            }
 
+            Console.WriteLine("Multiple installs of MSBuild detected please select one:");
+            for (int i = 0; i < visualStudioInstances.Length; i++)
+            {
+                Console.WriteLine($"Instance {i + 1}");
+                Console.WriteLine($"    Name: {visualStudioInstances[i].Name}");
+                Console.WriteLine($"    Version: {visualStudioInstances[i].Version}");
+                Console.WriteLine($"    MSBuild Path: {visualStudioInstances[i].MSBuildPath}");
+            }
+
+            while (true)
+            {
+                var userResponse = Console.ReadLine();
+                if (int.TryParse(userResponse, out int instanceNumber) &&
+                    instanceNumber > 0 &&
+                    instanceNumber <= visualStudioInstances.Length)
+                {
+                    return visualStudioInstances[instanceNumber - 1];
+                }
+                Console.WriteLine("Input not accepted, try again.");
+            }
+        }
         public void Resolve(Nodes.Project projectNode)
         {
+            VisualStudioInstance[] visualStudioInstances = MSBuildLocator.QueryVisualStudioInstances().ToArray();
+            VisualStudioInstance instance = visualStudioInstances.Length == 1
+                // If there is only one instance of MSBuild on this machine, set that as the one to use.
+                ? visualStudioInstances[0]
+                // Handle selecting the version of MSBuild you want to use.
+                : SelectVisualStudioInstance(visualStudioInstances);
+
+            Console.WriteLine($"Using MSBuild at '{instance.MSBuildPath}' to load projects.");
+            try
+            {
+                MSBuildLocator.RegisterInstance(instance);
+
+            }
+            catch (Exception ex)
+            {
+                if(!ex.Message.Contains("MSBuild assemblies were already loaded"))
+                {
+                    throw ex;
+                }
+            }
+            // NOTE: Be sure to register an instance with the MSBuildLocator 
+            //       before calling MSBuildWorkspace.Create()
+            //       otherwise, MSBuildWorkspace won't MEF compose.
+           
             var workspace = MSBuildWorkspace.Create();
             workspace.WorkspaceFailed += Workspace_WorkspaceFailed;
 
@@ -36,16 +85,18 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             var compilation = project.GetCompilationAsync().Result;
 
             _Compilation = compilation as CSharpCompilation;
-
-            //foreach (var syntaxTree in compilation.SyntaxTrees)
-            //{
-            //    this.ProcessSyntaxTree(projectNode, syntaxTree);
-            //}
+#if DEBUG || Debug || debug
+            foreach (var syntaxTree in compilation.SyntaxTrees)
+            {
+                this.ProcessSyntaxTree(projectNode, syntaxTree);
+            }
+#else
 
             Parallel.ForEach<SyntaxTree>(compilation.SyntaxTrees, (SyntaxTree syntaxTree) =>
             {
                 this.ProcessSyntaxTree(projectNode, syntaxTree);
             });
+#endif
         }
 
         private void ProcessSyntaxTree(Nodes.Project projectNode, SyntaxTree tree)
@@ -59,7 +110,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
             if (list.Count == 0)
             {
                 // TODO Log
-                //Console.Error.WriteLine("Compile Item could not found!");
+                Console.Error.WriteLine("Compile Item could not found!");
                 return;
             }
             else
@@ -145,7 +196,7 @@ namespace BigPicture.Resolver.CSharp.Resolvers
 
         private void Workspace_WorkspaceFailed(object sender, WorkspaceDiagnosticEventArgs e)
         {
-            // Console.WriteLine("Workspace Failed: " + e.Diagnostic.Message);
+             Console.WriteLine("Workspace Failed: " + e.Diagnostic.Message);
         }        
     }
 }
