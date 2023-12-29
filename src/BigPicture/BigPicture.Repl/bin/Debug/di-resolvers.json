@@ -1,81 +1,149 @@
 {
   "Options": {
-    "RemoveAllOnStart":  true
+    "RemoveAllOnStart":  false
   },
   "StartData": [
-    {
-      "NodeTypeName": "Solution",
-      "Data": {
-        "Path": "D:\\dtl1tfs1\\CSI\\Prod-OrderPlay\\CSI\\Digiturk.CSI.sln",
-        "Name": "Digiturk.CSI"
-      }
-    },
-    {
-      "NodeTypeName": "Database",
-      "Data": {
-        "Name": "DBS",
-        "Type": "Oracle",
-        "DoNotParse": [ "SYS", "SYSTEM", "OPER", "OJVMSYS", "XDB", "PUBLIC" ]
-      }
-    }
+    //{
+    //  "NodeTypeName": "Solution",
+    //  "Data": {
+    //    //"Path": "C:\\digi\\\Framework\\TEST-NewProject\\CRM.Common\\Digiturk.CRM.Common.sln",
+    //    "Path": "C:\\digi\\Framework\\TEST\\Framework\\Digiturk.Framework.V4.sln",
+    //    "Name": "Digiturk.Framework"
+    //  }
+    //}
+    //{
+    //  "NodeTypeName": "Database",
+    //  "Data": {
+    //    "Name": "DBS",
+    //    "Type": "Oracle",
+    //    "DoNotParse": [ "SYS", "SYSTEM", "OPER", "OJVMSYS", "XDB", "PUBLIC", "INTERACTIVE", "PROD", "CTI_DBA", "RAPOR", "DBS_ADDR", "PROD_DBA", "YTS_DBA", "ITUSR", "DP_PROD_DBA", "DP_USR_ICRA" ]
+    //  }
+    //}
+    //{
+    //  "NodeTypeName": "Redis",
+    //  "Data": {
+    //        "Name": "Redis",
+    //        "Type": "Redis"
+    //  }
+    //}
+    //{
+    //  "NodeTypeName": "CacheServer",
+    //  "Data": {
+    //    "Name": "CacheServer",
+    //    "Type": "CacheServer"
+    //  }
+    //}
   ],
   "Resolvers": [
+    //{
+    //  "Name": "Solution",
+    //  "Resolves": "Solution",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Resolver.CSharp.Nodes.Solution, BigPicture.Resolver.CSharp",
+    //  "Resolver": "BigPicture.Resolver.CSharp.Resolvers.SolutionResolver, BigPicture.Resolver.CSharp"
+    //},
+    //{
+    //  "Name": "Project",
+    //  "Resolves": "Project",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
+    //  "Resolver": "BigPicture.Resolver.CSharp.Resolvers.ProjectResolver, BigPicture.Resolver.CSharp"
+    //},
+    //{
+    //  "Name": "Code",
+    //  "Resolves": "Project",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
+    //  "Resolver": "BigPicture.Resolver.CSharp.Resolvers.CodeResolver, BigPicture.Resolver.CSharp"
+    //}
+    //{
+    //  "Name": "Redis",
+    //  "Resolves": "Redis",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Redis.Nodes.Redis, BigPicture.Resolver.Redis",
+    //  "Resolver": "BigPicture.Resolver.Redis.Resolvers.RedisResolver, BigPicture.Resolver.Redis"
+    //},
+    //{
+    //  "Name": "RedisDatabase",
+    //  "Resolves": "RedisDatabase",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Redis.Nodes.RedisDatabase, BigPicture.Resolver.Redis",
+    //  "Resolver": "BigPicture.Resolver.Redis.Resolvers.RedisDatabaseResolver, BigPicture.Resolver.Redis"
+    //}
+    //{
+    //  "Name": "CacheServer",
+    //  "Resolves": "CacheServer",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Redis.Nodes.CacheServer, BigPicture.Resolver.Redis",
+    //  "Resolver": "BigPicture.Resolver.Redis.Resolvers.CacheServerResolver, BigPicture.Resolver.Redis"
+    //},
+    //{
+    //  "Name": "RedisDatabase",
+    //  "Resolves": "RedisDatabase",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Redis.Nodes.RedisDatabase, BigPicture.Resolver.Redis",
+    //  "Resolver": "BigPicture.Resolver.Redis.Resolvers.RedisDatabaseResolver, BigPicture.Resolver.Redis"
+    //},
+    //{
+    //  "Name": "RedisTable",
+    //  "Resolves": "RedisTable",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Redis.Nodes.RedisTable, BigPicture.Resolver.Redis",
+    //  "Resolver": "BigPicture.Resolver.Redis.Resolvers.RedisTableResolver, BigPicture.Resolver.Redis"
+    //}
+    ////,
+    //{
+    //  "Name": "Database",
+    //  "Resolves": "Database",
+    //  "RunParallel": false,
+    //  "NodeType": "BigPicture.Resolver.Oracle.Nodes.Database, BigPicture.Resolver.Oracle",
+    //  "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DatabaseResolver, BigPicture.Resolver.Oracle"
+    //},
+    //{
+    //  "Name": "Schema",
+    //  "Resolves": "Schema",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Resolver.Oracle.Nodes.Schema, BigPicture.Resolver.Oracle",
+    //  "Resolver": "BigPicture.Resolver.Oracle.Resolvers.SchemaResolver, BigPicture.Resolver.Oracle"
+    //},
+    //{
+    //  "Name": "Dependency",
+    //  "Resolves": "DbObject",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+    //  "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DependencyResolver, BigPicture.Resolver.Oracle"
+    //},
+    //{
+    //  "Name": "Table",
+    //  "Resolves": "Table",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
+    //  "Resolver": "BigPicture.Resolver.Oracle.Resolvers.TableResolver, BigPicture.Resolver.Oracle"
+    //}
+    ////,
+    ////{
+    ////  "Name": "CodeToDatabaseResolver",
+    ////  "Resolves": "DbCallBlock",
+    ////  "RunParallel": true,
+    ////  "NodeType": "BigPicture.Digiturk.Resolvers.CodeToDatabaseResolvers.DbCallBlock, BigPicture.Digiturk.Resolvers",
+    ////  "Resolver": "BigPicture.Digiturk.Resolvers.CodeToDatabaseResolvers.ExecuteNonQueryResolver, BigPicture.Digiturk.Resolvers",
+    ////  "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {Name: 'ExecuteNonQuery'})\twhere not (Calls.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT Calls.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn Code, Calls, DbObject"
+    ////}
+    //{
+    //  "Name": "CodeToDatabaseResolver",
+    //  "Resolves": "DbCallBlock",
+    //  "RunParallel": true,
+    //  "NodeType": "BigPicture.Digiturk.Resolvers.CodeToDatabaseResolvers.DbCallBlock, BigPicture.Digiturk.Resolvers",
+    //  "Resolver": "BigPicture.Digiturk.Resolvers.CodeToDatabaseResolvers.ExecuteNonQueryRedisResolver, BigPicture.Digiturk.Resolvers",
+    //  "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {OwnerName: 'IRedisHandler'}) WHERE Calls.Code contains 'Redis' return Code,Calls,DbObject"
+    //}
     {
-      "Name": "Solution",
-      "Resolves": "Solution",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Solution, BigPicture.Resolver.CSharp",
-      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.SolutionResolver, BigPicture.Resolver.CSharp"
-    },
-    {
-      "Name": "Project",
-      "Resolves": "Project",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
-      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.ProjectResolver, BigPicture.Resolver.CSharp"
-    },
-    {
-      "Name": "Code",
-      "Resolves": "Project",
-      "RunParallel": false,
-      "NodeType": "BigPicture.Resolver.CSharp.Nodes.Project, BigPicture.Resolver.CSharp",
-      "Resolver": "BigPicture.Resolver.CSharp.Resolvers.CodeResolver, BigPicture.Resolver.CSharp"
-    },
-    {
-      "Name": "Database",
-      "Resolves": "Database",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Database, BigPicture.Resolver.Oracle",
-      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DatabaseResolver, BigPicture.Resolver.Oracle"
-    },
-    {
-      "Name": "Schema",
-      "Resolves": "Schema",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.Oracle.Nodes.Schema, BigPicture.Resolver.Oracle",
-      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.SchemaResolver, BigPicture.Resolver.Oracle"
-    },
-    {
-      "Name": "Dependency",
-      "Resolves": "DbObject",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
-      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.DependencyResolver, BigPicture.Resolver.Oracle"
-    },
-    {
-      "Name": "Table",
-      "Resolves": "Table",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.Oracle.Nodes.DbObject, BigPicture.Resolver.Oracle",
-      "Resolver": "BigPicture.Resolver.Oracle.Resolvers.TableResolver, BigPicture.Resolver.Oracle"
-    },
-    {
-      "Name": "CodeToDatabaseResolver",
+      "Name": "CodeToDatabaseRedisResolver",
       "Resolves": "DbCallBlock",
-      "RunParallel": true,
-      "NodeType": "BigPicture.Resolver.CSharp.DbCallBlock, BigPicture.Resolver.CSharp",
-      "Resolver": "BigPicture.Resolver.CSharp.ExecuteNonQueryResolver, BigPicture.Resolver.CSharp",
-      "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {Name: 'ExecuteNonQuery'})\twhere not (Calls.ParamValues[1] = \"<UNKNOWN>\" \t  AND NOT Calls.ParamCodes[1] STARTS WITH 'Constants.SetInterfaceSchemaName(\"{0}.')\treturn Code, Calls, DbObject"
+      "RunParallel": false,
+      "NodeType": "BigPicture.Resolver.CSharp.CodeToDatabaseResolvers.DbCallBlock, BigPicture.Resolver.CSharp",
+      "Resolver": "BigPicture.Resolver.CSharp.CodeToDatabaseResolvers.ExecuteNonQueryRedisResolver, BigPicture.Resolver.CSharp",
+      "CustomQuery": "match(Code)-[Calls:ACCESS]->(DbObject {OwnerName: 'IRedisHandler'}) WHERE Calls.Code contains 'Redis' return Code,Calls,DbObject"
     }
   ]
 }

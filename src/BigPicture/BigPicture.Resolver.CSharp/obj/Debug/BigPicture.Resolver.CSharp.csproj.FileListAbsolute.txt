@@ -174,3 +174,932 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\B
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csprojAssemblyReference.cache
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll.config
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.AttributedModel.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Convention.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Hosting.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Runtime.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.TypedParts.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll.config
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csprojAssemblyReference.cache
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CoreCompileInputs.cache
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CopyComplete
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Locator.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll.config
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Locator.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Convention.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Hosting.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Runtime.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll.config
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CoreCompileInputs.cache
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CopyComplete
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.AssemblyReference.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll.config
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Locator.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.AttributedModel.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Convention.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Hosting.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Runtime.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.TypedParts.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll.config
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.AssemblyReference.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CoreCompileInputs.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CopyComplete
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll.config
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Locator.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Convention.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Hosting.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Runtime.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll.config
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.AssemblyReference.cache
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CoreCompileInputs.cache
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CopyComplete
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll.config
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Locator.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.AttributedModel.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Convention.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Hosting.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.Runtime.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Composition.TypedParts.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Replify.Net.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Core.dll.config
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Framework.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Tasks.Core.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Build.Utilities.Core.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.CSharp.Workspaces.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.VisualBasic.Workspaces.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.CodeAnalysis.Workspaces.MSBuild.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Buffers.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Collections.Immutable.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Memory.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Dataflow.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Autofac.Configuration.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.VisualBasic.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.AssemblyReference.cache
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CoreCompileInputs.cache
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.csproj.CopyComplete
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\obj\Debug\BigPicture.Resolver.CSharp.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.Redis.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Redis.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Interfaces.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Common.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Text.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.Redis.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\BigPicture.Resolver.Redis.dll.config
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Redis.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Common.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\ServiceStack.Text.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Resolver.CSharp\bin\Debug\System.Diagnostics.DiagnosticSource.xml

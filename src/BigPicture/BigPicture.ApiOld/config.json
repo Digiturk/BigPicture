@@ -1,6 +1,6 @@
 {
-  "GraphRepository": "bolt://localhost:7687",
-  "CodeRepository": "http://localhost:9200",
+  "GraphRepository": "bolt://172.28.7.143:7687",
+  "CodeRepository": "http://172.28.7.143:9200",
   "Options": {
     "DBS": "Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS = (PROTOCOL = TCP)(HOST = 172.28.4.8)(PORT = 1521))) (CONNECT_DATA = (SERVER = DEDICATED) (SERVICE_NAME = MAINTENANCE_TEST) ));user id=DT_TEST;password=DT_TEST;"
   }

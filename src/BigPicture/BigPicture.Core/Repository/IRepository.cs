@@ -31,5 +31,7 @@ namespace BigPicture.Core.Repository
         String FindIdOrCreate(object node, String[] nodeTypes, object filterObject);
 
         List<Entity> RunCustomQuery(String query, Type type);
+        string ControlAndCreateRelationship(String from, String to, String relationShip, dynamic dataObject = null);
+        
     }
 }

@@ -1624,28 +1624,6 @@
             this event is raised to when telemetry is logged.
             </summary>
         </member>
-        <member name="T:Microsoft.Build.Framework.IEventSource3">
-            <summary>
-            This interface defines the events raised by the build engine.
-            Loggers use this interface to subscribe to the events they
-            are interested in receiving.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Build.Framework.IEventSource3.IncludeEvaluationMetaprojects">
-            <summary>
-            Should evaluation events include generated metaprojects?
-            </summary>
-        </member>
-        <member name="M:Microsoft.Build.Framework.IEventSource3.IncludeEvaluationProfiles">
-            <summary>
-            Should evaluation events include profiling information?
-            </summary>
-        </member>
-        <member name="M:Microsoft.Build.Framework.IEventSource3.IncludeTaskInputs">
-            <summary>
-            Should task events include task inputs?
-            </summary>
-        </member>
         <member name="T:Microsoft.Build.Framework.IForwardingLogger">
             <summary>
             This interface extends the ILogger interface to provide a property which can be used to forward events
@@ -2225,21 +2203,6 @@
             Gets the F1-help keyword associated with this error, for the host IDE.
             </summary>
             <value>The keyword string.</value>
-        </member>
-        <member name="T:Microsoft.Build.Framework.MetaprojectGeneratedEventArgs">
-            <summary>
-            Arguments for the metaproject generated event.
-            </summary>
-        </member>
-        <member name="F:Microsoft.Build.Framework.MetaprojectGeneratedEventArgs.metaprojectXml">
-            <summary>
-            Raw xml representing the metaproject.
-            </summary>
-        </member>
-        <member name="M:Microsoft.Build.Framework.MetaprojectGeneratedEventArgs.#ctor(System.String,System.String,System.String)">
-            <summary>
-            Initializes a new instance of the MetaprojectGeneratedEventArgs class.
-            </summary>
         </member>
         <member name="T:Microsoft.Build.Framework.OutputAttribute">
             <summary>
@@ -2933,11 +2896,6 @@
                 Context used by an <see cref="T:Microsoft.Build.Framework.SdkResolver" /> to resolve an SDK.
             </summary>
         </member>
-        <member name="P:Microsoft.Build.Framework.SdkResolverContext.Interactive">
-            <summary>
-            Gets a value indicating if the resolver is allowed to be interactive.
-            </summary>
-        </member>
         <member name="P:Microsoft.Build.Framework.SdkResolverContext.Logger">
             <summary>
                 Logger to log real-time messages back to MSBuild.
@@ -2980,26 +2938,6 @@
         <member name="P:Microsoft.Build.Framework.SdkResult.Success">
             <summary>
                 Indicates the resolution was successful.
-            </summary>
-        </member>
-        <member name="P:Microsoft.Build.Framework.SdkResult.Path">
-            <summary>
-                Resolved path to the SDK.
-            
-                Null if <see cref="P:Microsoft.Build.Framework.SdkResult.Success"/> == false
-            </summary>
-        </member>
-        <member name="P:Microsoft.Build.Framework.SdkResult.Version">
-            <summary>
-                Resolved version of the SDK.
-                Can be null or empty if the resolver did not provide a version (e.g. a path based resolver)
-            
-                Null if <see cref="P:Microsoft.Build.Framework.SdkResult.Success"/> == false
-            </summary>
-        </member>
-        <member name="P:Microsoft.Build.Framework.SdkResult.SdkReference">
-            <summary>
-                The Sdk reference
             </summary>
         </member>
         <member name="T:Microsoft.Build.Framework.SdkResultFactory">
@@ -5001,19 +4939,19 @@
             The most current ToolsVersion known to this version of MSBuild.
             </summary>
         </member>
+        <member name="F:Microsoft.Build.Shared.MSBuildConstants.CurrentToolsVersionAsVersion">
+            <summary>
+            The most current ToolsVersion known to this version of MSBuild as a Version object.
+            </summary>
+        </member>
         <member name="F:Microsoft.Build.Shared.MSBuildConstants.CurrentAssemblyVersion">
             <summary>
             The most current VSGeneralAssemblyVersion known to this version of MSBuild.
             </summary>
         </member>
-        <member name="F:Microsoft.Build.Shared.MSBuildConstants.CurrentProductVersion">
+        <member name="P:Microsoft.Build.Shared.MSBuildConstants.CurrentProductVersion">
             <summary>
             Current version of this MSBuild Engine assembly in the form, e.g, "12.0"
-            </summary>
-        </member>
-        <member name="F:Microsoft.Build.Shared.MSBuildConstants.ProjectReferenceItemName">
-            <summary>
-            The name of the item used to specify references to other msbuild projects
             </summary>
         </member>
         <member name="T:Microsoft.Build.Shared.ItemMetadataNames">

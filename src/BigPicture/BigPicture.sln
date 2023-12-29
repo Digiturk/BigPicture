@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Repl", "BigPicture.Repl\BigPicture.Repl.csproj", "{BF3653BA-8111-4D90-87D5-44D1E29E9D24}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Repository.ElasticSearch", "BigPicture.Repository.ElasticSearch\BigPicture.Repository.ElasticSearch.csproj", "{7029ADAE-0ED5-4168-8789-4AA603A1087D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.ApiOld", "BigPicture.ApiOld\BigPicture.ApiOld.csproj", "{A79ED28F-376F-495F-B2EB-614439C77816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BigPicture.Resolver.Redis", "BigPicture.Resolver.Redis\BigPicture.Resolver.Redis.csproj", "{70C3A238-AE59-41FE-8D0D-37C5FF79A97C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{A79ED28F-376F-495F-B2EB-614439C77816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A79ED28F-376F-495F-B2EB-614439C77816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A79ED28F-376F-495F-B2EB-614439C77816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70C3A238-AE59-41FE-8D0D-37C5FF79A97C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70C3A238-AE59-41FE-8D0D-37C5FF79A97C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70C3A238-AE59-41FE-8D0D-37C5FF79A97C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70C3A238-AE59-41FE-8D0D-37C5FF79A97C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -48,3 +48,253 @@ D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\ob
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
 D:\src\digiturk\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll.config
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Replify.Net.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll.config
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.pdb
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csprojAssemblyReference.cache
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CoreCompileInputs.cache
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Projects\BigPicture\client\BigPicture-master\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll.config
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Replify.Net.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll.config
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CoreCompileInputs.cache
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\dtmuhari\Desktop\BigPicture V3\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.AssemblyReference.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll.config
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Replify.Net.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll.config
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.pdb
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.AssemblyReference.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CoreCompileInputs.cache
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Repos\BigPicture\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll.config
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Replify.Net.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll.config
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.pdb
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.AssemblyReference.cache
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CoreCompileInputs.cache
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\DTMOZKAN\Source\Repos\BigPictureMuhammed\BigPicture\src\BigPicture\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll.config
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Repository.ElasticSearch.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Replify.Net.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\BigPicture.Core.dll.config
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Elasticsearch.Net.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Nest.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Buffers.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.pdb
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Autofac.Configuration.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Json.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Memory.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.AssemblyReference.cache
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CoreCompileInputs.cache
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.csproj.CopyComplete
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.dll
+C:\Users\DTMOZKAN\Downloads\BigPicture_Ozkan\BigPicture.Repository.ElasticSearch\obj\Debug\BigPicture.Repository.ElasticSearch.pdb

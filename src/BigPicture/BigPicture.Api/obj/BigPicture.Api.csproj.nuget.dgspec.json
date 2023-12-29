@@ -1,0 +1,149 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Api\\BigPicture.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Api\\BigPicture.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Api\\BigPicture.Api.csproj",
+        "projectName": "BigPicture.Api",
+        "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Api\\BigPicture.Api.csproj",
+        "packagesPath": "C:\\Users\\DTMOZKAN\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DTMOZKAN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
+            "projectReferences": {
+              "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj": {
+                "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj"
+              },
+              "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj": {
+                "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj",
+        "projectName": "BigPicture.Core",
+        "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj",
+        "projectName": "BigPicture.Repository.ElasticSearch",
+        "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.ElasticSearch\\BigPicture.Repository.ElasticSearch.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj": {
+                "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj",
+        "projectName": "BigPicture.Repository.Neo4j",
+        "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Repository.Neo4j\\BigPicture.Repository.Neo4j.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj": {
+                "projectPath": "C:\\Users\\DTMOZKAN\\Downloads\\BigPicture_Ozkan\\BigPicture.Core\\BigPicture.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

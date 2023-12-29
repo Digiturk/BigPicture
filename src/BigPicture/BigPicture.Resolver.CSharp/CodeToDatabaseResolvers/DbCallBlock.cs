@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BigPicture.Resolver.CSharp
+namespace BigPicture.Resolver.CSharp.CodeToDatabaseResolvers
 {
-    public class DbCallBlock : Entity
+    public class DbCallBlock : Node
     {
         public String Id { get; set; }
 

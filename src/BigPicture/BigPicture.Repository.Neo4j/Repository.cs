@@ -15,7 +15,7 @@ namespace BigPicture.Repository.Neo4j
 {
     public class Repository : IRepository, IDisposable
     {
-        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.GraphRepository);
+        private IDriver _Driver = GraphDatabase.Driver(CommonConfig.Instance.GraphRepository, AuthTokens.Basic("", ""), Config.Builder.WithEncryptionLevel(EncryptionLevel.None).ToConfig());
 
         public string TestConnection()
         {
@@ -86,6 +86,24 @@ namespace BigPicture.Repository.Neo4j
 
             var result = this.Write(statement);
             return result.Peek()[0].ToString();
+        }
+
+        public string ControlAndCreateRelationship(String from, String to, String relationShip, dynamic dataObject = null)
+        {
+            var statement = $@"
+                 MATCH(s), (n)
+                 where ID(s) = {from}
+                 and ID(n) = {to}
+                 return EXISTS((s) -[:{relationShip}]->(n)) AS relationshipExists";
+
+            var result = this.Read(statement);
+            var relationshipExists = result.Single()["relationshipExists"].As<bool>();
+
+            if (!relationshipExists)
+            {
+               return this.CreateRelationship(from, to, relationShip, dataObject);
+            }
+            return "";
         }
 
         public string CreateNode(object node, params String[] nodeTypes)

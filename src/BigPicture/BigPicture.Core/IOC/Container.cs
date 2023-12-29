@@ -40,15 +40,24 @@ namespace BigPicture.Core.IOC
         private static void RegisterResolvers(ContainerBuilder builder)
         {
             foreach(var resolverDefiniton in ResolversConfig.Instance.Resolvers)
-            {
-                var nodeType = Type.GetType(resolverDefiniton.NodeType);
-                var resolverType = Type.GetType(resolverDefiniton.Resolver);
+            {//TODO:remove try catch
+                try
+                {
+                    var nodeType = Type.GetType(resolverDefiniton.NodeType);
+                    var resolverType = Type.GetType(resolverDefiniton.Resolver);
 
-                builder
-                    .RegisterType(resolverType)
-                    .Keyed(resolverDefiniton.Name, typeof(IResolver<>).MakeGenericType(nodeType))
-                    .As(typeof(IResolver<>).MakeGenericType(nodeType))
-                    .InstancePerDependency();
+                    builder
+                        .RegisterType(resolverType)
+                        .Keyed(resolverDefiniton.Name, typeof(IResolver<>).MakeGenericType(nodeType))
+                        .As(typeof(IResolver<>).MakeGenericType(nodeType))
+                        .InstancePerDependency();
+                }
+                catch (Exception ex)
+                {
+
+                    throw;
+                }
+               
             }
         }
      
