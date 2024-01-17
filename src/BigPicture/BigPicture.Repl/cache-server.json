@@ -1,0 +1,121 @@
+{
+  "RedisTableKeywords": [ "UserLogin", "UserCredential", "UserCredentialExt", "UserCredentialExtHash", "UserCredentialNotVerified", "UserCredentialHash", "UserCredentialBehavior", "UserCredentialBehaviorHash", "UserDeny", "UserDenyHash", "UserPassword", "UserPasswordHash", "UserSession", "UserSessionExt", "UserSessionExtHash", "UserInfo", "ResetKey", "ResetKeyByCredential", "VerificationKeyByCredential", "AuthCode", "OAuthApplication", "OAuthWhiteList", "OAuthWhiteListHash", "OAuthAccessCode", "SessionKeyByAuthCode", "UserFingerPrintInfo", "UserPincode", "UserDeviceHash", "UserProfileHash" ],
+  "RedisTableMap": [
+    {
+      "key": "UserLogin",
+      "value": "ULogin"
+    },
+    {
+      "key": "UserCredential",
+      "value": "UCred"
+    },
+    {
+      "key": "UserCredentialExt",
+      "value": "UCredExt"
+    },
+    {
+      "key": "UserCredentialExtHash",
+      "value": "CredExtKey"
+    },
+    {
+      "key": "UserCredentialNotVerified",
+      "value": "UCredNotVrfy"
+    },
+    {
+      "key": "UserCredentialHash",
+      "value": "PartyRoleId"
+    },
+    {
+      "key": "UserCredentialBehavior",
+      "value": "UCredBhvr"
+    },
+    {
+      "key": "UserCredentialBehaviorHash",
+      "value": "ApplicationId"
+    },
+    {
+      "key": "UserDeny",
+      "value": "UDeny"
+    },
+    {
+      "key": "UserDenyHash",
+      "value": "UserDenyKey"
+    },
+    {
+      "key": "UserPassword",
+      "value": "UPass"
+    },
+    {
+      "key": "UserPasswordHash",
+      "value": "UserPasswordKey"
+    },
+    {
+      "key": "UserSession",
+      "value": "USes"
+    },
+    {
+      "key": "UserSessionExt",
+      "value": "USesExt"
+    },
+    {
+      "key": "UserSessionExtHash",
+      "value": "ExtKey"
+    },
+    {
+      "key": "UserInfo",
+      "value": "UInfo"
+    },
+    {
+      "key": "ResetKey",
+      "value": "ResetKey"
+    },
+    {
+      "key": "ResetKeyByCredential",
+      "value": "ResetKeyByCredential"
+    },
+    {
+      "key": "VerificationKeyByCredential",
+      "value": "VerificationKeyByCredential"
+    },
+    {
+      "key": "AuthCode",
+      "value": "AuthCode"
+    },
+    {
+      "key": "OAuthApplication",
+      "value": "OAuthApp"
+    },
+    {
+      "key": "OAuthWhiteList",
+      "value": "OAuthWhiteList"
+    },
+    {
+      "key": "OAuthWhiteListHash",
+      "value": "OAuthWhiteListKey"
+    },
+    {
+      "key": "OAuthAccessCode",
+      "value": "OAuthAccessCode"
+    },
+    {
+      "key": "SessionKeyByAuthCode",
+      "value": "SessionKeyByAuthCode"
+    },
+    {
+      "key": "UserFingerPrintInfo",
+      "value": "UserFingerPrintInfo"
+    },
+    {
+      "key": "UserPincode",
+      "value": "UPin"
+    },
+    {
+      "key": "UserDeviceHash",
+      "value": "UDevice"
+    },
+    {
+      "key": "UserProfileHash",
+      "value": "UProfile"
+    }
+  ]
+}

@@ -110,6 +110,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Config\CacheServerConfig.cs" />
     <Compile Include="Config\CommonConfig.cs" />
     <Compile Include="Config\ResolversConfig.cs" />
     <Compile Include="Relation.cs" />

@@ -1,0 +1,13 @@
+{
+  "RedisTableKeywords": [ "abc", "xyz" ],
+  "RedisTableMap": [
+    {
+      "key": "abc",
+      "value": "def"
+    },
+    {
+      "key": "xyz",
+      "value": "wt"
+    }
+  ]
+}
